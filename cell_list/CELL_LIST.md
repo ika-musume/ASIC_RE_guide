@@ -51,18 +51,10 @@ A standard cell type ASIC developed in-house by Toshiba. Unlike the TC13/15/17G 
 <p align=center><img alt="Toshiba TC2xSC 3-input AND gate" src="./assets/SCC_AN3.png" height="240" width="auto"></p>
 
 ### AND4 / AN4
-<p align=center><img alt="Toshiba TC2xSC 4-input AND gate" src="./assets/SCC_AN3.png" height="240" width="auto"></p>
+<p align=center><img alt="Toshiba TC2xSC 4-input AND gate" src="./assets/SCC_AN4.png" height="240" width="auto"></p>
 
-### AOI222(MF23 wired) / AO5
+### AOI222P(MF23 wired) / AO5
 <p align=center><img alt="Toshiba TC2xSC inverting 2 of 3 majority gate" src="./assets/SCC_AO5.png" height="240" width="auto"></p>
-Y = ~|{A&B, A&C, B&C}
-
-### AOI222P(MF23 wired) / AO5P
-<p align=center><img alt="Toshiba TC2xSC power inverting 2 of 3 majority gate" src="./assets/SCC_AO5P.png" height="240" width="auto"></p>
-Y = ~|{A&B, A&C, B&C}
-
-<p align=center><img alt="Toshiba TC2xSC power inverting 2 of 3 majority gate" src="./assets/SCC_AO5_diff.png" height="180" width="auto"></p>
-<p align="center"><i>It's very similar to AO5, but there's one difference. The right is AO5 and the left is AO5P. Did you notice?</i></p>
 
 
 # Toshiba TC15/17/19 4T array
