@@ -11,6 +11,13 @@ This list is a compilation of ASIC cell mugshots I've found so far. Information 
     - suffix **P{n}** - _(e.g. INVP, INVP2...)_ power inverter, n can represent the number of parallel transistors, or it can simply represent the units of output from that ASIC.
     - suffix **D** - _(e.g. INVD, BUFD...)_ with RC delay
 
+- **TRI-STATE INVERTER/BUFFER FAMILY**
+    - **TSI** - tri-state inverter
+    - **TSB** - tri-state buffer
+    - suffix **PEN** - _(e.g. TSIPEN...)_ with positive enable
+    - suffix **NEN** - _(e.g. TSBNEN...)_ with negative enable
+    - suffix **P{n}** - _(e.g. TSBPPEN...)_ power inverter/butter; This prefix is used in special cases. Typically, tri-state inverters use a four MOS stack, but I've seen cases where a transmission gate controls the output of the inverter. In this case, the output of the CMOS inverter is attenuated by the pass transistors, so use this suffix to distinguish between a 4-stack inverter cell and a 2-stack inverter + pass transistor cell _only_ if it's present.
+
 - **AND/OR FAMILY**
     - **NAND{n}/NOR{n}** - n specifies the number of input ports
     - **AND{n}/OR{n}** - n specifies the number of input ports
@@ -46,15 +53,7 @@ To find the input and output ports, see the svgs I uploaded. You can find the sp
 
 A standard cell type ASIC developed in-house by Toshiba. Unlike the TC13/15/17G 4T gate array series, it was possible to place embedded ROM and RAM. The family was found in the 2.0-0.7um process node and was all double metal. The M2 is placed high that the polysilicon is not visible, so delayer is required in most cases. Konami SCC didn't require top metal shaving, but the sound chip from Roland or the math chip named SEI300 from Seibu Cup Soccer would definitely require delayering process.
 
-## Combinational
-### AND3 / AN3
-<p align=center><img alt="Toshiba TC2xSC 3-input AND gate" src="./assets/SCC_AN3.png" height="240" width="auto"></p>
-
-### AND4 / AN4
-<p align=center><img alt="Toshiba TC2xSC 4-input AND gate" src="./assets/SCC_AN4.png" height="240" width="auto"></p>
-
-### AOI222P(MF23 wired) / AO5
-<p align=center><img alt="Toshiba TC2xSC inverting 2 of 3 majority gate" src="./assets/SCC_AO5.png" height="240" width="auto"></p>
+**[Toshiba TC2xSC cell list](./CELL_TOSHIBA_TC2XSC.md)**
 
 
 # Toshiba TC15/17/19 4T array
@@ -66,7 +65,8 @@ A standard cell type ASIC developed in-house by Toshiba. Unlike the TC13/15/17G 
 
 ## Multiplexers
 ### MUX81P / MUX81P(13 cells)
-<p align=center><img alt="LSI Logic SCAN power flip flop" src="./assets/GP9001_MUX81P.png" height="480" width="auto"></p>
+<p align=center><img alt="LSI Logic 8-to-1 power 
+multiplexer" src="./assets/GP9001_MUX81P.png" height="480" width="auto"></p>
 
 # Yamaha single row standard cell(YM3xxx)
 
