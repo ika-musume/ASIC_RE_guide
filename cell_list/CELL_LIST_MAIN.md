@@ -16,7 +16,7 @@ This list is a compilation of ASIC cell mugshots I've found so far. Information 
     - **TSB** - tri-state buffer
     - suffix **PEN** - _(e.g. TSIPEN...)_ with positive enable
     - suffix **NEN** - _(e.g. TSBNEN...)_ with negative enable
-    - suffix **P{n}** - _(e.g. TSBPPEN...)_ power inverter/butter; This prefix is used in special cases. Typically, tri-state inverters use a four MOS stack, but I've seen cases where a transmission gate controls the output of the inverter. In this case, the output of the CMOS inverter is attenuated by the pass transistors, so use this suffix to distinguish between a 4-stack inverter cell and a 2-stack inverter + pass transistor cell _only_ if it's present.
+    - suffix **P{n}** - _(e.g. TSBPPEN...)_ power inverter/buffer; This prefix is used in special cases. Typically, tri-state inverters use a four MOS stack, but I've seen cases where a transmission gate controls the output of the inverter. In this case, the output of the CMOS inverter is attenuated by the pass transistors, so use this suffix to distinguish between a 4-stack inverter cell and a 2-stack inverter + pass transistor cell _only_ if it's present.
 
 - **AND/OR FAMILY**
     - **NAND{n}/NOR{n}** - n specifies the number of input ports
@@ -43,6 +43,12 @@ This list is a compilation of ASIC cell mugshots I've found so far. Information 
 To find the input and output ports, see the svgs I uploaded. You can find the specific cell with Ctrl+F and I basically write the names of all the cell input/output ports.
 
 # NEC CMOS-5 6T array
+<p align=center><img alt="LSI Logic SCAN power flip flop" src="./assets_list_main/nec_cmos5_topology.jpg" height="auto" width="640"></p>
+There are variants of NEC CMOS-5, 5V, 5U, and there's no difference in the internal structure: it's a 1.2um double Al metal gate array.
+
+This's a gate array with a rare 6-transistor cell. The only other gate array I've seen with 6T cells is Hitachi's BiCMOS gate array. I'm not sure what the advantage is compared to conventional 4T cells, I'd have to look at the patent or paper. All standard cells can be positioned in four different orientations: default, MX, MY, and R180.
+
+**[NEC CMOS-5 cell list](./CELL_NEC_CMOS5.md)**
 
 # Toshiba TC2xSC series standard cell
 * TC21SC: 2.0um 1.5ns standard cell ASIC, no macros or embedded memory, <10k gates
@@ -58,15 +64,14 @@ A standard cell type ASIC developed in-house by Toshiba. Unlike the TC13/15/17G 
 
 # Toshiba TC15/17/19 4T array
 
-# Toshiba/LSI Logic 4T array
+# LSI Logic LCA10/100k gate array
 ## Flip-flops
-### SDFF / FD1SP
-<p align=center><img alt="LSI Logic SCAN power flip flop" src="./assets/GP9001_FD1SP.png" height="480" width="auto"></p>
+### SDFFP / FD1SP
+<p align=center><img alt="LSI Logic SCAN flip flop with high drive power" src="./assets_lsi_lca10_100k/GP9001_FD1SP.png" height="auto" width="180"></p>
 
 ## Multiplexers
-### MUX81P / MUX81P(13 cells)
-<p align=center><img alt="LSI Logic 8-to-1 power 
-multiplexer" src="./assets/GP9001_MUX81P.png" height="480" width="auto"></p>
+### MUX81P / MUX81P(LCA100k-13cells)
+<p align=center><img alt="LSI Logic 8-to-1 multiplexer with high drive power" src="./assets_lsi_lca10_100k/GP9001_MUX81P.png" height="auto" width="180"></p>
 
 # Yamaha single row standard cell(YM3xxx)
 
