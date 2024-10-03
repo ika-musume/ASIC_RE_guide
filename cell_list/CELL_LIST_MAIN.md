@@ -42,11 +42,12 @@ This list is a compilation of ASIC cell mugshots I've found so far. Information 
 
 To find the input and output ports, see the svgs I uploaded. You can find the specific cell with Ctrl+F and I basically write the names of all the cell input/output ports.
 
-# NEC CMOS-5 6T array
+# NEC CMOS-5 gate array
 <p align=center><img alt="LSI Logic SCAN power flip flop" src="./assets_list_main/nec_cmos5_topology.jpg" height="auto" width="640"></p>
+
 There are variants of NEC CMOS-5, 5V, 5U, and there's no difference in the internal structure: it's a 1.2um double Al metal gate array.
 
-This's a gate array with a rare 6-transistor cell. The only other gate array I've seen with 6T cells is Hitachi's BiCMOS gate array. I'm not sure what the advantage is compared to conventional 4T cells, I'd have to look at the patent or paper. All standard cells can be positioned in four different orientations: default, MX, MY, and R180.
+This is a gate array with a rare 6-transistor cell. The only other gate array I've seen with 6T cells is Hitachi's BiCMOS gate array. I'm not sure what the advantage is compared to conventional 4T cells, I'd have to look at the patent or paper. All standard cells can be positioned in four different orientations: default, MX, MY, and R180.
 
 **[NEC CMOS-5 cell list](./CELL_NEC_CMOS5.md)**
 
@@ -62,16 +63,16 @@ A standard cell type ASIC developed in-house by Toshiba. Unlike the TC13/15/17G 
 **[Toshiba TC2xSC cell list](./CELL_TOSHIBA_TC2XSC.md)**
 
 
-# Toshiba TC15/17/19 4T array
+# Toshiba TC15/17/19 gate array
 
 # LSI Logic LCA10/100k gate array
-## Flip-flops
-### SDFFP / FD1SP
-<p align=center><img alt="LSI Logic SCAN flip flop with high drive power" src="./assets_lsi_lca10_100k/GP9001_FD1SP.png" height="auto" width="180"></p>
+LSI Logic and Toshiba had a working relationship. I think LSI Logic was providing Toshiba with a more efficient ASIC structure and toolchain, and Toshiba was providing them with manufacturing services, so the master slice design of this gate array is shared by LSI Logic and Toshiba. 
 
-## Multiplexers
-### MUX81P / MUX81P(LCA100k-13cells)
-<p align=center><img alt="LSI Logic 8-to-1 multiplexer with high drive power" src="./assets_lsi_lca10_100k/GP9001_MUX81P.png" height="auto" width="180"></p>
+Unfortunately, I haven't seen many chips in this family, so I don't know if they shared the same cell design, or how the cell layout changed as the process evolved. The combinational gates look similar in design, but I haven't looked at the flip flops yet.
+
+The family doesn't have a huge standard cell like a 4-bit counter, and the macros that were supposedly provided by the EDA are scattered and disassembled into smaller unit cells. **I'll collect all the cells from LSI Logic and Toshiba in a doc below until I find a noticeable difference.**
+
+**[LSI Logic LCA10/100k cell list](./CELL_LSI_LCA10_100K.md)**
 
 # Yamaha single row standard cell(YM3xxx)
 

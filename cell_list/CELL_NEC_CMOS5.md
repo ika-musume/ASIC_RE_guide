@@ -20,6 +20,11 @@
 <p align=center><img alt="NEC CMOS-5 XNOR gate" src="./assets_nec_cmos5/S1990_XNOR2.png" height="auto" width="180"></p>
 <p align=center>Cell count = 2</p>
 
+## Decoder Family
+### DEC24NO / F561
+<p align=center><img alt="NEC CMOS-5 2-to-4 decoder with negative output" src="./assets_nec_cmos5/S1990_DEC24NO.png" height="auto" width="180"></p>
+<p align=center>Cell count = 4</p>
+
 ## Latch Family
 ### ODLPEN / F903
 <p align=center><img alt="NEC CMOS-5 Octal transmission gate D-latch with positive enable" src="./assets_nec_cmos5/S1990_ODLPEN.png" height="auto" width="180"></p>
