@@ -1,4 +1,4 @@
-# NEC CMOS-5 6T array
+# NEC CMOS-5 gate array
 ## Inverter/buffer Family
 ## NAND/NOR Family
 ### NAND8 / F308

@@ -1,6 +1,12 @@
 # LSI Logic LCA10/100k gate array
 ## Inverter/buffer Family
 
+## AND/OR Family
+### NAND4P / ND4P
+**Warning**: Two different configurations exist! 
+<p align=center><img alt="LSI Logic 4-input NAND with high drive power, 2-2 configuration" src="./assets_lsi_lca10_100k/GP9001_ND4P_22.png" height="auto" width="180"> <img alt="LSI Logic 4-input NAND with high drive power, 1-2-1 configuration" src="./assets_lsi_lca10_100k/GP9001_ND4P_121.png" height="auto" width="180"></p>
+<p align=center>Cell count = 4</p>
+
 ## Multiplexer Family
 ### MUX81P / MUX81P
 <p align=center><img alt="LSI Logic 8-to-1 multiplexer with high drive power" src="./assets_lsi_lca10_100k/GP9001_MUX81P.png" height="auto" width="180"></p>

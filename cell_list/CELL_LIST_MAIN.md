@@ -66,7 +66,7 @@ A standard cell type ASIC developed in-house by Toshiba. Unlike the TC13/15/17G 
 # Toshiba TC15/17/19 gate array
 
 # LSI Logic LCA10/100k gate array
-LSI Logic and Toshiba had a working relationship. I think LSI Logic was providing Toshiba with a more efficient ASIC structure and toolchain, and Toshiba was providing them with manufacturing services, so the master slice design of this gate array is shared by LSI Logic and Toshiba. 
+LSI Logic and Toshiba were once partners. I think LSI Logic was providing Toshiba with a more efficient ASIC structure and toolchain, and Toshiba was providing them with manufacturing services, so the master slice design of this gate array is shared by LSI Logic and Toshiba. 
 
 Unfortunately, I haven't seen many chips in this family, so I don't know if they shared the same cell design, or how the cell layout changed as the process evolved. The combinational gates look similar in design, but I haven't looked at the flip flops yet.
 
