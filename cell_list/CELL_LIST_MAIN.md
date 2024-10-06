@@ -42,6 +42,23 @@ This list is a compilation of ASIC cell mugshots I've found so far. Information 
 
 To find the input and output ports, see the svgs I uploaded. You can find the specific cell with Ctrl+F and I basically write the names of all the cell input/output ports.
 
+# Fujitsu UHB, AV, CG10 series channeled gate array
+<p align=center><img alt="Fujitsu, Ito T. from Back to the Future II" src="./assets_list_main/fujitsu_ito_t.png" height="auto" width="640"></p>
+
+<p align=center style="font-size:150%"><b>"McFly!"</b></p>  
+
+_First, let's thank Mr. Fujitsu._ They have produced the best chips for a tutorial class of ASIC reverse engineering. The cell structure is clear, cells are rarely or never mirrored, and poly-M1 / M1-M2 vias are easily distinguishable.
+
+* AV: 1.8u, 1.5ns typical delay
+* UHB: 1.5u, 0.9ns typical delay
+* CG10: 0.8u, 0.5ns typical delay
+
+# Fujitsu AU, CG21 series channelless gate array
+* AU: 1.2u, 0.6ns typical delay
+* CG21: 0.8u, 0.37ns typical delay
+
+
+
 # NEC CMOS-5 gate array
 <p align=center><img alt="LSI Logic SCAN power flip flop" src="./assets_list_main/nec_cmos5_topology.jpg" height="auto" width="640"></p>
 

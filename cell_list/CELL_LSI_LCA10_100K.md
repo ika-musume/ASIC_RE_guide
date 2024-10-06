@@ -36,6 +36,10 @@
 <p align=center><img alt="LSI Logic D flip flop with negative reset and high drive power" src="./assets_lsi_lca10_100k/GP9001_FD2P.png" height="auto" width="180"></p>
 <p align=center>Cell count = 9</p>
 
+### DFFNRNSP / FD3P
+<p align=center><img alt="LSI Logic D flip flop with negative reset/set and high drive power" src="./assets_lsi_lca10_100k/GP9001_FD3P.png" height="auto" width="180"></p>
+<p align=center>Cell count = 10</p>
+
 ### SDFF / FD1S
 <p align=center><img alt="LSI Logic SCAN flip flop" src="./assets_lsi_lca10_100k/GP9001_FD1S.png" height="auto" width="180"></p>
 <p align=center>Cell count = 9</p>
