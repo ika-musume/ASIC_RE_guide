@@ -14,8 +14,8 @@ This list is a compilation of ASIC cell mugshots I've found so far. Information 
 - **TRI-STATE INVERTER/BUFFER FAMILY**
     - **TSI** - tri-state inverter
     - **TSB** - tri-state buffer
-    - suffix **PEN** - _(e.g. TSIPEN...)_ with positive enable
-    - suffix **NEN** - _(e.g. TSBNEN...)_ with negative enable
+    - suffix **PE** - _(e.g. TSIPE...)_ with positive enable
+    - suffix **NE** - _(e.g. TSBNE...)_ with negative enable
     - suffix **P{n}** - _(e.g. TSBPPEN...)_ power inverter/buffer; This prefix is used in special cases. Typically, tri-state inverters use a four MOS stack, but I've seen cases where a transmission gate controls the output of the inverter. In this case, the output of the CMOS inverter is attenuated by the pass transistors, so use this suffix to distinguish between a 4-stack inverter cell and a 2-stack inverter + pass transistor cell _only_ if it's present.
 
 - **AND/OR FAMILY**

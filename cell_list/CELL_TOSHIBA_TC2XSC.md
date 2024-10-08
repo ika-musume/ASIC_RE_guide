@@ -7,7 +7,7 @@ A power inverter with parallel P-ch transistors
 
 
 ## Tri-state inverter/buffer Family
-### TSBPEN / BTS4
+### TSBPE / BTS4
 <p align=center><img alt="Toshiba TC2xSC tri-state internal buffer" src="./assets_toshiba_tc2xsc/SCC_BTS4.png" height="240" width="auto"></p>
 <p align=center>TC22SC mugshot</p>
 

@@ -6,6 +6,10 @@
 <p align=center>Cell count = 4</p>
 
 ## AND/OR Family
+### AND2 / F312
+<p align=center><img alt="NEC CMOS-5 2-input AND gate" src="./assets_nec_cmos5/S1990_AND2.png" height="auto" width="180"></p>
+<p align=center>Cell count = 1</p>
+
 ### OR2 / F212
 <p align=center><img alt="NEC CMOS-5 2-input OR gate" src="./assets_nec_cmos5/S1990_OR2.png" height="auto" width="180"></p>
 <p align=center>Cell count = 1</p>
@@ -25,9 +29,17 @@
 <p align=center><img alt="NEC CMOS-5 2-to-4 decoder with negative output" src="./assets_nec_cmos5/S1990_DEC24NO.png" height="auto" width="180"></p>
 <p align=center>Cell count = 4</p>
 
+### DEC24NONE / F981
+<p align=center><img alt="NEC CMOS-5 2-to-4 decoder with negative output and negative enable" src="./assets_nec_cmos5/S1990_DEC24NONE.png" height="auto" width="180"></p>
+<p align=center>Cell count = 6</p>
+
 ## Latch Family
-### ODLPEN / F903
-<p align=center><img alt="NEC CMOS-5 Octal transmission gate D-latch with positive enable" src="./assets_nec_cmos5/S1990_ODLPEN.png" height="auto" width="180"></p>
+### QDLPE / F901
+<p align=center><img alt="NEC CMOS-5 Quad transmission gate D-latch with positive enable" src="./assets_nec_cmos5/S1990_QDLPE.png" height="auto" width="180"></p>
+<p align=center>Cell count = 10</p>
+
+### ODLPE / F903
+<p align=center><img alt="NEC CMOS-5 Octal transmission gate D-latch with positive enable" src="./assets_nec_cmos5/S1990_ODLPE.png" height="auto" width="180"></p>
 <p align=center>Cell count = 14</p>
 
 ## Flip-flop Family
