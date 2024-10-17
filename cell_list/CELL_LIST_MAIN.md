@@ -91,6 +91,12 @@ The family doesn't have a huge standard cell like a 4-bit counter, and the macro
 
 **[LSI Logic LCA10/100k cell list](./CELL_LSI_LCA10_100K.md)**
 
-# Yamaha single row standard cell(YM3xxx)
+# Yamaha single row standard cell
 
-# Yamaha double row standard cell(YM6xxx, F7xxxx)
+# Yamaha double row standard cell
+* pre-F(die ID 6xxx): 1.5um ?
+* F7GA(die ID F7xxxx): 1.2um 0.8ns 2k-18k gates
+* FDGA: 0.8um 10k-45k gates(announced on Nov. 1994)
+* FHGA: 0.65um
+
+**[Yamaha double row cell list](./CELL_YAMAHA_DR.md)**
