@@ -27,15 +27,15 @@
      fit-margin-left="0"
      fit-margin-right="0"
      fit-margin-bottom="0"
-     inkscape:zoom="1.6806294"
-     inkscape:cx="276.08705"
-     inkscape:cy="400.44522"
+     inkscape:zoom="2.3767689"
+     inkscape:cx="124.95956"
+     inkscape:cy="675.28652"
      inkscape:window-width="2560"
      inkscape:window-height="1494"
      inkscape:window-x="-11"
      inkscape:window-y="1609"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer4" />
+     inkscape:current-layer="layer2" />
   <defs
      id="defs89637" />
   <g
@@ -197,10 +197,6 @@
        transform="translate(-38.805218,-84.584823)" />
     <path
        style="fill:none;stroke:#ff6600;stroke-width:2.514;stroke-linecap:round"
-       d="M 25.976131,242.28646 V 199.4652 h 8.816143"
-       id="path93960" />
-    <path
-       style="fill:none;stroke:#ff6600;stroke-width:2.514;stroke-linecap:round"
        d="m 17.15999,176.87384 6.125305,3.53644 v 15.11915 H 17.86843 v 46.91446"
        id="path93962" />
     <path
@@ -212,6 +208,10 @@
        d="m 146.67488,93.379151 v 28.164109 l -4.73405,2.73321 v 24.3177 h 11.19064 v 23.48864 h -10.57546 v 19.25847 h 3.56226 v 11.24338"
        id="path91418"
        transform="translate(-38.805218,-84.584823)" />
+    <path
+       style="fill:none;stroke:#ff6600;stroke-width:2.514;stroke-linecap:round"
+       d="m 30.835806,174.91477 h -2.783014 v 67.37451"
+       id="path290" />
   </g>
   <g
      inkscape:groupmode="layer"
