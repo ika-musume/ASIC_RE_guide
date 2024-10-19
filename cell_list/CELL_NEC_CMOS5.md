@@ -40,14 +40,14 @@
 <p align=center>Cell count = 6</p>
 
 ## Latch Family
-### QDLPE / F901
+### DL4PE / F901
 Quad transmission gate D-latch with positive enable
-<p align=center><img alt="NEC CMOS-5 Quad transmission gate D-latch with positive enable" src="./assets_nec_cmos5/S1990_QDLPE.png" height="auto" width="180"></p>
+<p align=center><img alt="NEC CMOS-5 Quad transmission gate D-latch with positive enable" src="./assets_nec_cmos5/S1990_DL4PE.png" height="auto" width="180"></p>
 <p align=center>Cell count = 10</p>
 
-### ODLPE / F903
+### DL8PE / F903
 Octal transmission gate D-latch with positive enable
-<p align=center><img alt="NEC CMOS-5 Octal transmission gate D-latch with positive enable" src="./assets_nec_cmos5/S1990_ODLPE.png" height="auto" width="180"></p>
+<p align=center><img alt="NEC CMOS-5 Octal transmission gate D-latch with positive enable" src="./assets_nec_cmos5/S1990_DL8PE.png" height="auto" width="180"></p>
 <p align=center>Cell count = 14</p>
 
 ## Flip-flop Family
