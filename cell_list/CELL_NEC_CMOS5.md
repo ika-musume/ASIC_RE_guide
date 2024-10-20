@@ -62,7 +62,7 @@ NEC CMOS-5 D Flip-flop with negative set(preset)
 <p align=center>Cell count = 5</p>
 
 ## Counter Family
-### UPCNTR4NR / F962
-4-bit up counter with asynchronous negative reset
-<p align=center><img alt="NEC CMOS-5 4-bit up counter with asynchronous negative reset" src="./assets_nec_cmos5/S1990_UPCNTR4NR.png" height="auto" width="180"></p>
+### CNTR4NR / F962
+4-bit counter with asynchronous negative reset
+<p align=center><img alt="NEC CMOS-5 4-bit counter with asynchronous negative reset" src="./assets_nec_cmos5/S1990_CNTR4NR.png" height="auto" width="180"></p>
 <p align=center>Cell count = 24</p>
