@@ -8,6 +8,14 @@ Octal tri-state buffer with negative output enable
 2-to-4 decoder
 <p align=center><img alt="Yamaha double row series 2-to-4 decoder" src="./assets_yamaha_dr/GA20_DEC24.jpg" height="240"> <img alt="Yamaha double row series 2-to-4 decoder" src="./assets_yamaha_dr/GA20_DEC24.svg" height="240"></p>
 
+## Multiplexer Family
+### MUX41
+4-to-1 multiplexer
+<p align=center><img alt="Yamaha double row series 4-to-1 multiplexer" src="./assets_yamaha_dr/R800_MUX41.jpg" height="240"> <img alt="Yamaha double row series 4-to-1 multiplexer" src="./assets_yamaha_dr/R800_MUX41.svg" height="240"></p>
+
+### MUX421
+Quad 2-to-1 multiplexer; Y = S ? IN1 : IN0
+<p align=center><img alt="Yamaha double row series quad 2-to-1 multiplexer" src="./assets_yamaha_dr/YM6063_MUX421.svg" height="240"></p>
 
 ## Flip-flop Family
 ### DFFPLNOE
