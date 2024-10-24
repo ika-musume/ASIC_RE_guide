@@ -1,4 +1,13 @@
 # Yamaha YM6xxx, F7GA, FDGA
+## Inverter/Buffer Family
+### INV
+Inverter
+<p align=center><img alt="Yamaha double row series inverter" src="./assets_yamaha_dr/YM6063_INV.svg" height="240"></p>
+
+### INVP
+Inverter with high drive power
+<p align=center><img alt="Yamaha double row series inverter with high drive power" src="./assets_yamaha_dr/YM6063_INVP.svg" height="240"></p>
+
 ## Tri-state Inverter/Buffer Family
 Octal tri-state buffer with negative output enable
 <p align=center><img alt="Yamaha double row series octal tri-state buffer with negative output enable" src="./assets_yamaha_dr/R800_TSB8NE.jpg" height="240"></p>
