@@ -9,8 +9,19 @@ Inverter with high drive power
 <p align=center><img alt="Yamaha double row series inverter with high drive power" src="./assets_yamaha_dr/YM6063_INVP.svg" height="240"></p>
 
 ## Tri-state Inverter/Buffer Family
+### TSB8NE
 Octal tri-state buffer with negative output enable
 <p align=center><img alt="Yamaha double row series octal tri-state buffer with negative output enable" src="./assets_yamaha_dr/R800_TSB8NE.jpg" height="240"></p>
+
+## AND/OR Family
+### AND8P
+8-input AND with high drive power(parallel p-ch transistors)
+<p align=center><img alt="Yamaha double row series 8-input AND with high drive power" src="./assets_yamaha_dr/R800_AND8P.jpg" height="240"> <img alt="Yamaha double row series 8-input AND with high drive power" src="./assets_yamaha_dr/YM6063_AND8P.jpg" height="240"></br>R800(1.2um) / YM6063(1.5um)</p>
+
+## AND-OR Family
+### OAI21
+2-wide 1-2 input OR into NAND
+<p align=center><img alt="Yamaha double row series 2-wide 1-2 input OR into NAND gate" src="./assets_yamaha_dr/R800_OAI21.jpg" height="240"></p>
 
 ## Decoder Family
 ### DEC24
