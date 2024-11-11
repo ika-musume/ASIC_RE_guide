@@ -61,3 +61,12 @@ Octal D flip-flop with negative reset and negative output enable
 ### CNTR1PR
 Cascadable 1-bit counter with positive reset
 <p align=center><img alt="Yamaha double row series cascadable 1-bit counter with positive reset" src="./assets_yamaha_dr/YM6063_CNTR1PR.svg" height="240"></p>
+
+## Miscellaneous
+### ACC1PR
+Cascadable 1-bit accumulator with positive reset
+<p align=center><img alt="Yamaha double row series cascadable 1-bit accumulator with positive reset" src="./assets_yamaha_dr/YM6063_ACC1PR.svg" height="240"></p>
+
+### ACC1NL
+Cascadable 1-bit accumulator with negative load; D port to preload data, A port for accumulation
+<p align=center><img alt="Yamaha double row series cascadable 1-bit accumulator with negative load" src="./assets_yamaha_dr/R800_ACC1NL.jpg" height="240"> <img alt="Yamaha double row series cascadable 1-bit accumulator with negative load" src="./assets_yamaha_dr/R800_ACC1NL.svg" height="240"></p>
