@@ -5,10 +5,14 @@ Inverter
 <p align=center><img alt="Yamaha double row series inverter" src="./assets_yamaha_dr/YM6063_INV.svg" height="240"></p>
 
 ### INVP
-Inverter with high drive power
-<p align=center><img alt="Yamaha double row series inverter with high drive power" src="./assets_yamaha_dr/YM6063_INVP.svg" height="240"></p>
+Inverter with high drive power(parallel p-ch transistors)
+<p align=center><img alt="Yamaha double row series inverter with high drive power" src="./assets_yamaha_dr/YM6063_INVP.jpg" height="240"> <img alt="Yamaha double row series inverter with high drive power" src="./assets_yamaha_dr/YM6063_INVP.svg" height="240"></p>
 
 ## Tri-state Inverter/Buffer Family
+### TSB4NE
+Quad tri-state buffer with negative output enable
+<p align=center><img alt="Yamaha double row series quad tri-state buffer with negative output enable" src="./assets_yamaha_dr/R800_TSB4NE.svg" height="240"></p>
+
 ### TSB8NE
 Octal tri-state buffer with negative output enable
 <p align=center><img alt="Yamaha double row series octal tri-state buffer with negative output enable" src="./assets_yamaha_dr/R800_TSB8NE.jpg" height="240"></p>
