@@ -59,7 +59,7 @@ D flip-flop with positive **synchronous reset** and positive load
 
 ### DFF8NRNOE
 Octal D flip-flop with negative reset and negative output enable
-<p align=center><img alt="Yamaha double row series octal D flip-flop with negative reset and negative output enable" src="./assets_yamaha_dr/R800_DFF8NRNOE.jpg" height="240"></p>
+<p align=center><img alt="Yamaha double row series octal D flip-flop with negative reset and negative output enable" src="./assets_yamaha_dr/R800_DFF8NRNOE.jpg" height="240"></br><img alt="Yamaha double row series octal D flip-flop with negative reset and negative output enable" src="./assets_yamaha_dr/R800_DFF8NRNOE.svg" height="240"></p>
 
 ## Counter Family
 ### CNTR1PR
