@@ -41,6 +41,11 @@ Octal tri-state buffer with negative output enable
 Quad 2-to-1 multiplexer; Y = S ? IN1 : IN0
 <p align=center><img alt="Yamaha double row series quad 2-to-1 multiplexer" src="./assets_yamaha_dr/YM6063_MUX421.svg" height="240"></p>
 
+## Adder Family
+### FA4
+4-bit full adder
+<p align=center><img alt="Yamaha double row series 4-bit full adder" src="./assets_yamaha_dr/YM6063_FA4.jpg" height="240"></br><img alt="Yamaha double row series 4-bit full adder" src="./assets_yamaha_dr/YM6063_FA4.svg" height="240"></p>
+
 ## Flip-flop Family
 ### DFFPLNOE
 D flip-flop with positive load and negative output enable, **inverted output only**
