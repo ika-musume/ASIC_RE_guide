@@ -46,6 +46,12 @@ Quad 2-to-1 multiplexer; Y = S ? IN1 : IN0
 4-bit full adder
 <p align=center><img alt="Yamaha double row series 4-bit full adder" src="./assets_yamaha_dr/YM6063_FA4.jpg" height="240"></br><img alt="Yamaha double row series 4-bit full adder" src="./assets_yamaha_dr/YM6063_FA4.svg" height="240"></p>
 
+## Latch Family
+### DL4PE
+D latch with positive enable
+<p align=center><img alt="Yamaha double row series D latch with positive enable" src="./assets_yamaha_dr/R800_DL4PE.jpg" height="240"> <img alt="Yamaha double row series D latch with positive enable" src="./assets_yamaha_dr/R800_DL4PE.svg" height="240"></p>
+<p align=center><i>not delayered, best guess</i></p>
+
 ## Flip-flop Family
 ### DFFPLNOE
 D flip-flop with positive load and negative output enable, **inverted output only**
@@ -79,3 +85,7 @@ Cascadable 1-bit accumulator with positive reset
 ### ACC1NL
 Cascadable 1-bit accumulator with negative load; D port to preload data, A port for accumulation
 <p align=center><img alt="Yamaha double row series cascadable 1-bit accumulator with negative load" src="./assets_yamaha_dr/R800_ACC1NL.jpg" height="240"> <img alt="Yamaha double row series cascadable 1-bit accumulator with negative load" src="./assets_yamaha_dr/R800_ACC1NL.svg" height="240"></p>
+
+### PG8PBE
+8-bit odd parity generator/checker with bit enables; Y = ^{D[7:0] & BE[7:0]}
+<p align=center><img alt="Yamaha double row series 8-bit odd parity generator/checker with bit enables" src="./assets_yamaha_dr/R800_PG8PBE.jpg" height="240"></p>
