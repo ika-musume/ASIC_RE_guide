@@ -32,6 +32,11 @@ Octal tri-state buffer with negative output enable
 2-to-4 decoder
 <p align=center><img alt="Yamaha double row series 2-to-4 decoder" src="./assets_yamaha_dr/GA20_DEC24.jpg" height="240"> <img alt="Yamaha double row series 2-to-4 decoder" src="./assets_yamaha_dr/GA20_DEC24.svg" height="240"></p>
 
+### DEC38
+3-to-8 decoder
+<p align=center><img alt="Yamaha double row series 3-to-8 decoder" src="./assets_yamaha_dr/GA20_DEC38.jpg" height="240"> <img alt="Yamaha double row series 3-to-8 decoder" src="./assets_yamaha_dr/GA20_DEC38.svg" height="240"></p>
+
+
 ## Multiplexer Family
 ### MUX41
 4-to-1 multiplexer
@@ -71,6 +76,12 @@ D flip-flop with positive **synchronous reset** and positive load
 ### DFF8NRNOE
 Octal D flip-flop with negative reset and negative output enable
 <p align=center><img alt="Yamaha double row series octal D flip-flop with negative reset and negative output enable" src="./assets_yamaha_dr/R800_DFF8NRNOE.jpg" height="240"></br><img alt="Yamaha double row series octal D flip-flop with negative reset and negative output enable" src="./assets_yamaha_dr/R800_DFF8NRNOE.svg" height="240"></p>
+
+## Shift Register Family
+### SR4NR
+4-bit shift register with negative reset
+<p align=center><img alt="Yamaha double row series 4-bit shift register with negative reset" src="./assets_yamaha_dr/YM6063_SR4NR.svg" height="240"></p>
+
 
 ## Counter Family
 ### CNTR1PR
