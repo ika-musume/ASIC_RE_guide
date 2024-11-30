@@ -15,7 +15,11 @@ Quad tri-state buffer with negative output enable
 
 ### TSB8NE
 Octal tri-state buffer with negative output enable
-<p align=center><img alt="Yamaha double row series octal tri-state buffer with negative output enable" src="./assets_yamaha_dr/R800_TSB8NE.jpg" height="240"></p>
+<p align=center><img alt="Yamaha double row series octal tri-state buffer with negative output enable" src="./assets_yamaha_dr/R800_TSB8NE.jpg" height="240"></br><img alt="Yamaha double row series octal tri-state buffer with negative output enable" src="./assets_yamaha_dr/R800_TSB8NE.svg" height="240"></p>
+
+### TSBP8NE
+Octal tri-state buffer with negative output enable and high drive power(parallel p-ch transistors)
+<p align=center><img alt="Yamaha double row series octal tri-state buffer with negative output enable and high drive power" src="./assets_yamaha_dr/R800_TSBP8NE.jpg" height="240"></p>
 
 ## AND/OR Family
 ### AND8P
