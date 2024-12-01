@@ -26,6 +26,10 @@ Octal tri-state buffer with negative output enable and high drive power(parallel
 8-input AND with high drive power(parallel p-ch transistors)
 <p align=center><img alt="Yamaha double row series 8-input AND with high drive power" src="./assets_yamaha_dr/R800_AND8P.jpg" height="240"> <img alt="Yamaha double row series 8-input AND with high drive power" src="./assets_yamaha_dr/YM6063_AND8P.jpg" height="240"></br>R800(1.2um) / YM6063(1.5um)</p>
 
+### OR8
+8-input OR
+<p align=center><img alt="Yamaha double row series 8-input AND with high drive power" src="./assets_yamaha_dr/YM6063_OR8.svg" height="240"></p>
+
 ## AND-OR Family
 ### OAI21
 2-wide 1-2 input OR into NAND
