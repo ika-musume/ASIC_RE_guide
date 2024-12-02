@@ -22,6 +22,19 @@ Octal tri-state buffer with negative output enable
 Octal tri-state buffer with negative output enable and high drive power(parallel p-ch transistors)
 <p align=center><img alt="Yamaha double row series octal tri-state buffer with negative output enable and high drive power" src="./assets_yamaha_dr/R800_TSBP8NE.jpg" height="240"></p>
 
+## NAND/NOR Family
+### NAND4
+4-input OR
+<p align=center><img alt="Yamaha double row series 4-input AND" src="./assets_yamaha_dr/R800_NAND4.jpg" height="240"></p>
+
+### NAND6
+6-input OR
+<p align=center><img alt="Yamaha double row series 6-input AND" src="./assets_yamaha_dr/R800_NAND6.jpg" height="240"></p>
+
+### NAND8
+8-input OR
+<p align=center><img alt="Yamaha double row series 8-input AND" src="./assets_yamaha_dr/R800_NAND8.jpg" height="240"></p>
+
 
 ## AND/OR Family
 ### AND8P
@@ -115,3 +128,7 @@ Cascadable 1-bit accumulator with negative load; D port to preload data, A port 
 ### PG8PBE
 8-bit odd parity generator/checker with bit enables; Y = ^{D[7:0] & BE[7:0]}
 <p align=center><img alt="Yamaha double row series 8-bit odd parity generator/checker with bit enables" src="./assets_yamaha_dr/R800_PG8PBE.jpg" height="240"></p>
+
+### PDET
+Positive edge detector
+<p align=center><img alt="Yamaha double row series positive edge detector" src="./assets_yamaha_dr/R800_PDET.jpg" height="240"> <img alt="Yamaha double row series positive edge detector" src="./assets_yamaha_dr/R800_PDET.svg" height="240"></p>
