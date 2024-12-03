@@ -24,15 +24,15 @@ Octal tri-state buffer with negative output enable and high drive power(parallel
 
 ## NAND/NOR Family
 ### NAND4
-4-input OR
+4-input NAND
 <p align=center><img alt="Yamaha double row series 4-input AND" src="./assets_yamaha_dr/R800_NAND4.jpg" height="240"></p>
 
 ### NAND6
-6-input OR
+6-input NAND
 <p align=center><img alt="Yamaha double row series 6-input AND" src="./assets_yamaha_dr/R800_NAND6.jpg" height="240"></p>
 
 ### NAND8
-8-input OR
+8-input NAND
 <p align=center><img alt="Yamaha double row series 8-input AND" src="./assets_yamaha_dr/R800_NAND8.jpg" height="240"></p>
 
 
@@ -68,6 +68,9 @@ Octal tri-state buffer with negative output enable and high drive power(parallel
 
 ### MUX214
 Quad 2-to-1 multiplexer; Y = S ? IN1 : IN0
+```verilog
+wire Y = S ? IN1 : IN0;
+```
 <p align=center><img alt="Yamaha double row series quad 2-to-1 multiplexer" src="./assets_yamaha_dr/YM6063_MUX214.svg" height="240"></p>
 
 
@@ -124,11 +127,20 @@ Cascadable 1-bit accumulator with positive reset
 Cascadable 1-bit accumulator with negative load; D port to preload data, A port for accumulation
 <p align=center><img alt="Yamaha double row series cascadable 1-bit accumulator with negative load" src="./assets_yamaha_dr/R800_ACC1NL.jpg" height="240"> <img alt="Yamaha double row series cascadable 1-bit accumulator with negative load" src="./assets_yamaha_dr/R800_ACC1NL.svg" height="240"></p>
 
+
 ## Miscellaneous
 ### PG8PBE
-8-bit odd parity generator/checker with bit enables; Y = ^{D[7:0] & BE[7:0]}
+8-bit odd parity generator/checker with bit enables
+```verilog
+wire P = ^{D[7:0] & BE[7:0]};
+```
 <p align=center><img alt="Yamaha double row series 8-bit odd parity generator/checker with bit enables" src="./assets_yamaha_dr/R800_PG8PBE.jpg" height="240"></p>
 
 ### PDET
 Positive edge detector
+```verilog
+reg Z;
+always @(posedge CLK) Z <= A;
+wire DET = ~Z & A;
+```
 <p align=center><img alt="Yamaha double row series positive edge detector" src="./assets_yamaha_dr/R800_PDET.jpg" height="240"> <img alt="Yamaha double row series positive edge detector" src="./assets_yamaha_dr/R800_PDET.svg" height="240"></p>
