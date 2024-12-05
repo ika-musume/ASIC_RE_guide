@@ -47,8 +47,16 @@ Octal tri-state buffer with negative output enable and high drive power(parallel
 
 ## AND-OR Family
 ### OAI21
-2-wide 1-2 input OR into NAND
-<p align=center><img alt="Yamaha double row series 2-wide 1-2 input OR into NAND gate" src="./assets_yamaha_dr/R800_OAI21.jpg" height="240"></p>
+OR2 and wire into NAND2
+<p align=center><img alt="Yamaha double row series OR2 and wire into NAND2" src="./assets_yamaha_dr/R800_OAI21.jpg" height="240"></p>
+
+### AO2222
+four OR2s into AND4(= four NAND2s into NAND4)
+<p align=center><img alt="Yamaha double row series four OR2s into AND4" src="./assets_yamaha_dr/R800_AO2222.jpg" height="240"></p>
+
+### AO22222222
+eight OR2s into AND8(= four AOI22s into NAND4)
+<p align=center><img alt="Yamaha double row series eight OR2s into AND8" src="./assets_yamaha_dr/R800_AO22222222.jpg" height="240"></p>
 
 
 ## Decoder Family

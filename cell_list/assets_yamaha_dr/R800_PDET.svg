@@ -27,15 +27,15 @@
      fit-margin-left="0"
      fit-margin-right="0"
      fit-margin-bottom="0"
-     inkscape:zoom="1.1883844"
-     inkscape:cx="159.03945"
-     inkscape:cy="445.14216"
+     inkscape:zoom="2.3767688"
+     inkscape:cx="248.65692"
+     inkscape:cy="294.93824"
      inkscape:window-width="2560"
      inkscape:window-height="1494"
      inkscape:window-x="-11"
      inkscape:window-y="1609"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer4" />
+     inkscape:current-layer="layer2" />
   <defs
      id="defs89637" />
   <g
@@ -164,10 +164,6 @@
        id="path368" />
     <path
        style="fill:none;stroke:#ff6600;stroke-width:2.514;stroke-linecap:round"
-       d="m 269.78187,163.88706 h 4.5655 v -43.21484 h -7.63541 v -20.62348 h -5.98238 V 83.912056 h 10.07559 V 65.413903 h -10.6266 V 49.041065 h 5.35266 V 3.3860469"
-       id="path370" />
-    <path
-       style="fill:none;stroke:#ff6600;stroke-width:2.514;stroke-linecap:round"
        d="M 211.19194,3.7657216 V 32.152476 l -2.50764,0.671917 v 19.031829 h 2.95293"
        id="path3893" />
     <path
@@ -175,6 +171,10 @@
        d="m 222.00153,163.96577 v 15.46386 h -11.70015 v 33.73014 h -6.67924 v 21.48487"
        id="path5326"
        sodipodi:nodetypes="cccccc" />
+    <path
+       style="fill:none;stroke:#ff6600;stroke-width:2.514;stroke-linecap:round"
+       d="M 265.53123,3.3860467 V 49.041065 h -5.35266 v 51.007675 h 6.53339 v 20.62348 h 7.63541 v 43.21484 h -4.5655"
+       id="path212" />
   </g>
   <g
      inkscape:groupmode="layer"
@@ -625,6 +625,6 @@
        id="text1410"><tspan
          sodipodi:role="line"
          id="tspan1408"
-         style="stroke-width:0.264583"></tspan></text>
+         style="stroke-width:0.264583" /></text>
   </g>
 </svg>
