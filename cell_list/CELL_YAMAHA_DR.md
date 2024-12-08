@@ -5,8 +5,12 @@ Inverter
 <p align=center><img alt="Yamaha double row series inverter" src="./assets_yamaha_dr/YM6063_INV.svg" height="240"></p>
 
 ### INVP
-Inverter with high drive power(parallel p-ch transistors)
+Inverter with high drive power(dual p-ch transistors)
 <p align=center><img alt="Yamaha double row series inverter with high drive power" src="./assets_yamaha_dr/YM6063_INVP.jpg" height="240"> <img alt="Yamaha double row series inverter with high drive power" src="./assets_yamaha_dr/YM6063_INVP.svg" height="240"></p>
+
+### INVP2
+Inverter with high drive power(quad p-ch transistors)
+<p align=center><img alt="Yamaha double row series inverter with high drive power" src="./assets_yamaha_dr/R800_INVP2.jpg" height="240"></p>
 
 
 ## Tri-state Inverter/Buffer Family
@@ -23,23 +27,39 @@ Octal tri-state buffer with negative output enable and high drive power(parallel
 <p align=center><img alt="Yamaha double row series octal tri-state buffer with negative output enable and high drive power" src="./assets_yamaha_dr/R800_TSBP8NE.jpg" height="240"></p>
 
 ## NAND/NOR Family
+### NAND2
+2-input NAND
+<p align=center><img alt="Yamaha double row series 2-input NAND" src="./assets_yamaha_dr/YM6063_NAND2.jpg" height="240"> <img alt="Yamaha double row series 2-input NAND" src="./assets_yamaha_dr/R800_NAND2.jpg" height="240"></p>
+
 ### NAND4
 4-input NAND
-<p align=center><img alt="Yamaha double row series 4-input AND" src="./assets_yamaha_dr/R800_NAND4.jpg" height="240"></p>
+<p align=center><img alt="Yamaha double row series 4-input NAND" src="./assets_yamaha_dr/R800_NAND4.jpg" height="240"></p>
 
 ### NAND6
 6-input NAND
-<p align=center><img alt="Yamaha double row series 6-input AND" src="./assets_yamaha_dr/R800_NAND6.jpg" height="240"></p>
+<p align=center><img alt="Yamaha double row series 6-input NAND" src="./assets_yamaha_dr/R800_NAND6.jpg" height="240"></p>
 
 ### NAND8
 8-input NAND
-<p align=center><img alt="Yamaha double row series 8-input AND" src="./assets_yamaha_dr/R800_NAND8.jpg" height="240"></p>
+<p align=center><img alt="Yamaha double row series 8-input NAND" src="./assets_yamaha_dr/R800_NAND8.jpg" height="240"></p>
 
 
 ## AND/OR Family
+### AND2
+2-input AND
+<p align=center><img alt="Yamaha double row series 2-input AND" src="./assets_yamaha_dr/YM6063_AND2.jpg" height="240"></p>
+
+### AND3
+3-input AND
+<p align=center><img alt="Yamaha double row series 3-input AND" src="./assets_yamaha_dr/R800_AND3.jpg" height="240"></p>
+
 ### AND8P
 8-input AND with high drive power(parallel p-ch transistors)
 <p align=center><img alt="Yamaha double row series 8-input AND with high drive power" src="./assets_yamaha_dr/R800_AND8P.jpg" height="240"> <img alt="Yamaha double row series 8-input AND with high drive power" src="./assets_yamaha_dr/YM6063_AND8P.jpg" height="240"></br>R800(1.2um) / YM6063(1.5um)</p>
+
+### OR2P
+2-input OR with high drive power(parallel p-ch transistors)
+<p align=center><img alt="Yamaha double row series 2-input OR with high drive power" src="./assets_yamaha_dr/YM6063_OR2P.jpg" height="240"></p>
 
 ### OR8
 8-input OR
@@ -51,12 +71,12 @@ OR2 and wire into NAND2
 <p align=center><img alt="Yamaha double row series OR2 and wire into NAND2" src="./assets_yamaha_dr/R800_OAI21.jpg" height="240"></p>
 
 ### AO2222
-four OR2s into AND4(= four NAND2s into NAND4)
-<p align=center><img alt="Yamaha double row series four OR2s into AND4" src="./assets_yamaha_dr/R800_AO2222.jpg" height="240"></p>
+four AND2s into OR4(= four NAND2s into NAND4)
+<p align=center><img alt="Yamaha double row series four AND2s into OR4" src="./assets_yamaha_dr/R800_AO2222.jpg" height="240"></p>
 
 ### AO22222222
-eight OR2s into AND8(= four AOI22s into NAND4)
-<p align=center><img alt="Yamaha double row series eight OR2s into AND8" src="./assets_yamaha_dr/R800_AO22222222.jpg" height="240"></p>
+eight AND2s into OR8(= four AOI22s into NAND4)
+<p align=center><img alt="Yamaha double row series eight AND2s into OR8" src="./assets_yamaha_dr/R800_AO22222222.jpg" height="240"></p>
 
 
 ## Decoder Family
@@ -125,7 +145,7 @@ Octal D flip-flop with negative reset and negative output enable
 ## Counter Family
 ### CNTR1PR
 Cascadable 1-bit counter with positive reset
-<p align=center><img alt="Yamaha double row series cascadable 1-bit counter with positive reset" src="./assets_yamaha_dr/YM6063_CNTR1PR.svg" height="240"></p>
+<p align=center><img alt="Yamaha double row series cascadable 1-bit counter with positive reset" src="./assets_yamaha_dr/YM6063_CNTR1PR.svg" height="240"> <img alt="Yamaha double row series cascadable 1-bit counter with positive reset" src="./assets_yamaha_dr/R800_CNTR1PR.jpg" height="240"></p>
 
 ### ACC1PR
 Cascadable 1-bit accumulator with positive reset
