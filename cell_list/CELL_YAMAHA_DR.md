@@ -9,8 +9,16 @@ Inverter with high drive power(dual p-ch transistors)
 <p align=center><img alt="Yamaha double row series inverter with high drive power" src="./assets_yamaha_dr/YM6063_INVP.jpg" height="240"> <img alt="Yamaha double row series inverter with high drive power" src="./assets_yamaha_dr/YM6063_INVP.svg" height="240"></p>
 
 ### INVP2
-Inverter with high drive power(quad p-ch transistors)
+Inverter with high drive power(quad p-ch, dual n-ch transistors)
 <p align=center><img alt="Yamaha double row series inverter with high drive power" src="./assets_yamaha_dr/R800_INVP2.jpg" height="240"></p>
+
+### BUF
+Buffer
+<p align=center><img alt="Yamaha double row series buffer" src="./assets_yamaha_dr/YM6063_BUF.jpg" height="240"></p>
+
+### BUFP2
+Buffer with high drive power(quad p-ch, dual n-ch transistors)
+<p align=center><img alt="Yamaha double row series buffer with high drive power" src="./assets_yamaha_dr/YM6063_BUFP2.jpg" height="240"></p>
 
 
 ## Tri-state Inverter/Buffer Family
@@ -31,6 +39,10 @@ Octal tri-state buffer with negative output enable and high drive power(parallel
 2-input NAND
 <p align=center><img alt="Yamaha double row series 2-input NAND" src="./assets_yamaha_dr/YM6063_NAND2.jpg" height="240"> <img alt="Yamaha double row series 2-input NAND" src="./assets_yamaha_dr/R800_NAND2.jpg" height="240"></p>
 
+### NAND3P
+3-input NAND with high drive power(parallel p-ch transistors)
+<p align=center><img alt="Yamaha double row series 3-input NAND with high drive power" src="./assets_yamaha_dr/YM6063_NAND3P.jpg" height="240"></p>
+
 ### NAND4
 4-input NAND
 <p align=center><img alt="Yamaha double row series 4-input NAND" src="./assets_yamaha_dr/R800_NAND4.jpg" height="240"></p>
@@ -43,6 +55,10 @@ Octal tri-state buffer with negative output enable and high drive power(parallel
 8-input NAND
 <p align=center><img alt="Yamaha double row series 8-input NAND" src="./assets_yamaha_dr/R800_NAND8.jpg" height="240"></p>
 
+### NOR2P
+2-input NOR with high drive power(parallel p-ch transistors)
+<p align=center><img alt="Yamaha double row series 2-input NOR with high drive power" src="./assets_yamaha_dr/YM6063_NOR2P.jpg" height="240"></p>
+
 
 ## AND/OR Family
 ### AND2
@@ -52,6 +68,10 @@ Octal tri-state buffer with negative output enable and high drive power(parallel
 ### AND3
 3-input AND
 <p align=center><img alt="Yamaha double row series 3-input AND" src="./assets_yamaha_dr/R800_AND3.jpg" height="240"></p>
+
+### AND4
+4-input AND
+<p align=center><img alt="Yamaha double row series 4-input AND" src="./assets_yamaha_dr/YM6063_AND4.jpg" height="240"></p>
 
 ### AND8P
 8-input AND with high drive power(parallel p-ch transistors)
@@ -78,6 +98,10 @@ four AND2s into OR4(= four NAND2s into NAND4)
 eight AND2s into OR8(= four AOI22s into NAND4)
 <p align=center><img alt="Yamaha double row series eight AND2s into OR8" src="./assets_yamaha_dr/R800_AO22222222.jpg" height="240"></p>
 
+## Exclusive-OR Family
+### XOR2
+2-input XOR
+<p align=center><img alt="Yamaha double row series 2-input XOR" src="./assets_yamaha_dr/YM6063_XOR2.jpg" height="240"> <img alt="Yamaha double row series 2-input XOR" src="./assets_yamaha_dr/YM6063_XOR2.svg" height="240"></p>
 
 ## Decoder Family
 ### DEC24
@@ -157,6 +181,10 @@ Cascadable 1-bit accumulator with negative load; D port to preload data, A port 
 
 
 ## Miscellaneous
+### VDD
+Tie node to the Vdd
+<p align=center><img alt="Yamaha double row series vdd level" src="./assets_yamaha_dr/YM6063_VDD.jpg" height="240"></p>
+
 ### PG8PBE
 8-bit odd parity generator/checker with bit enables
 ```verilog
