@@ -1,4 +1,6 @@
 # Yamaha YM6xxx, F7GA, FDGA
+I leave the cells without a SVG as an exercise for the reader, as the solution is trivial. 
+
 ## Inverter/Buffer Family
 ### INV
 Inverter
@@ -39,6 +41,10 @@ Octal tri-state buffer with negative output enable and high drive power(parallel
 2-input NAND
 <p align=center><img alt="Yamaha double row series 2-input NAND" src="./assets_yamaha_dr/YM6063_NAND2.jpg" height="240"> <img alt="Yamaha double row series 2-input NAND" src="./assets_yamaha_dr/R800_NAND2.jpg" height="240"></br>R800(1.2um) / YM6063(1.5um)</p>
 
+### NAND3
+3-input NAND
+<p align=center><img alt="Yamaha double row series 3-input NAND" src="./assets_yamaha_dr/YM6063_NAND3.jpg" height="240"></p>
+
 ### NAND4
 4-input NAND
 <p align=center><img alt="Yamaha double row series 4-input NAND" src="./assets_yamaha_dr/R800_NAND4.jpg" height="240"></p>
@@ -73,6 +79,10 @@ Octal tri-state buffer with negative output enable and high drive power(parallel
 4-input AND
 <p align=center><img alt="Yamaha double row series 4-input AND" src="./assets_yamaha_dr/YM6063_AND4.jpg" height="240"></p>
 
+### AND6
+6-input AND
+<p align=center><img alt="Yamaha double row series 6-input AND" src="./assets_yamaha_dr/R800_AND6.jpg" height="240"></p>
+
 ### AND8P
 8-input AND with high drive power(parallel p-ch transistors)
 <p align=center><img alt="Yamaha double row series 8-input AND with high drive power" src="./assets_yamaha_dr/R800_AND8P.jpg" height="240"> <img alt="Yamaha double row series 8-input AND with high drive power" src="./assets_yamaha_dr/YM6063_AND8P.jpg" height="240"></br>R800(1.2um) / YM6063(1.5um)</p>
@@ -80,6 +90,10 @@ Octal tri-state buffer with negative output enable and high drive power(parallel
 ### OR2P
 2-input OR with high drive power(parallel p-ch transistors)
 <p align=center><img alt="Yamaha double row series 2-input OR with high drive power" src="./assets_yamaha_dr/YM6063_OR2P.jpg" height="240"></p>
+
+### OR3
+3-input OR
+<p align=center><img alt="Yamaha double row series 3-input OR with high drive power" src="./assets_yamaha_dr/YM6063_OR3.jpg" height="240"></p>
 
 ### OR8
 8-input OR
