@@ -183,12 +183,16 @@ Octal D latch with positive enable
 
 
 ## Flip-flop Family
+### DFF
+D flip-flop
+<p align=center><img alt="Yamaha double row series D flip-flop" src="./assets_yamaha_dr/YM6063_DFF.jpg" height="240"></p>
+
 ### DFFNR
 D flip-flop with negative reset
 <p align=center><img alt="Yamaha double row series D flip-flop with negative reset" src="./assets_yamaha_dr/GA20_DFFNR.jpg" height="240"></p>
 
 ### DFFPLNOE
-D flip-flop with positive load and negative output enable, **inverted output only**
+D flip-flop with positive load and negative output enable
 <p align=center><img alt="Yamaha double row series D flip-flop with positive load and negative output enable" src="./assets_yamaha_dr/R800_DFFPLNOE.jpg" height="240"> <img alt="Yamaha double row series D flip-flop with positive load and negative output enable" src="./assets_yamaha_dr/R800_DFFPLNOE.svg" height="240"></p>
 <p align=center><i>not delayered, best guess</i></p>
 
