@@ -191,24 +191,24 @@ D flip-flop
 D flip-flop with negative reset
 <p align=center><img alt="Yamaha double row series D flip-flop with negative reset" src="./assets_yamaha_dr/GA20_DFFNR.jpg" height="240"></p>
 
-### DFFPLNOE
-D flip-flop with positive load and negative output enable
-<p align=center><img alt="Yamaha double row series D flip-flop with positive load and negative output enable" src="./assets_yamaha_dr/R800_DFFPLNOE.jpg" height="240"> <img alt="Yamaha double row series D flip-flop with positive load and negative output enable" src="./assets_yamaha_dr/R800_DFFPLNOE.svg" height="240"></p>
-<p align=center><i>not delayered, best guess</i></p>
+### DFF8NRNOE
+Octal D flip-flop with negative reset and negative output enable
+<p align=center><img alt="Yamaha double row series octal D flip-flop with negative reset and negative output enable" src="./assets_yamaha_dr/R800_DFF8NRNOE.jpg" height="240"></br><img alt="Yamaha double row series octal D flip-flop with negative reset and negative output enable" src="./assets_yamaha_dr/R800_DFF8NRNOE.svg" height="240"></p>
 
 ### DFFPL
 D flip-flop with positive load
 <p align=center><img alt="Yamaha double row series D flip-flop with positive load" src="./assets_yamaha_dr/R800_DFFPL.jpg" height="240"> <img alt="Yamaha double row series D flip-flop with positive load" src="./assets_yamaha_dr/R800_DFFPL.svg" height="240"></p>
 <p align=center><i>not delayered, best guess</i></p>
 
-### DFFPSRPL
-D flip-flop with positive **synchronous reset** and positive load
-<p align=center><img alt="Yamaha double row series D flip-flop with positive synchronous reset and positive load" src="./assets_yamaha_dr/R800_DFFPSRPL.jpg" height="240"> <img alt="Yamaha double row series D flip-flop with positive synchronous reset and positive load" src="./assets_yamaha_dr/R800_DFFPSRPL.svg" height="240"></p>
+### DFFPLPSR
+D flip-flop with positive load and positive **synchronous reset**
+<p align=center><img alt="Yamaha double row series D flip-flop with positive synchronous reset and positive load" src="./assets_yamaha_dr/R800_DFFPLPSR.jpg" height="240"> <img alt="Yamaha double row series D flip-flop with positive synchronous reset and positive load" src="./assets_yamaha_dr/R800_DFFPLPSR.svg" height="240"></p>
 <p align=center><i>not delayered, best guess</i></p>
 
-### DFF8NRNOE
-Octal D flip-flop with negative reset and negative output enable
-<p align=center><img alt="Yamaha double row series octal D flip-flop with negative reset and negative output enable" src="./assets_yamaha_dr/R800_DFF8NRNOE.jpg" height="240"></br><img alt="Yamaha double row series octal D flip-flop with negative reset and negative output enable" src="./assets_yamaha_dr/R800_DFF8NRNOE.svg" height="240"></p>
+### DFFPLNOE
+D flip-flop with positive load and negative output enable
+<p align=center><img alt="Yamaha double row series D flip-flop with positive load and negative output enable" src="./assets_yamaha_dr/R800_DFFPLNOE.jpg" height="240"> <img alt="Yamaha double row series D flip-flop with positive load and negative output enable" src="./assets_yamaha_dr/R800_DFFPLNOE.svg" height="240"></p>
+<p align=center><i>not delayered, best guess</i></p>
 
 ### TFF
 Toggle flip-flop
