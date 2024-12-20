@@ -18,6 +18,10 @@ Inverter with high drive power(quad p-ch, dual n-ch transistors)
 Buffer
 <p align=center><img alt="Yamaha double row series buffer" src="./assets_yamaha_dr/YM6063_BUF.jpg" height="240"></p>
 
+### BUFP
+Buffer with high drive power(dual p-ch, dual n-ch transistors)
+<p align=center><img alt="Yamaha double row series buffer with high drive power" src="./assets_yamaha_dr/YM6078_BUFP.jpg" height="240"></p>
+
 ### BUFP2
 Buffer with high drive power(quad p-ch, dual n-ch transistors)
 <p align=center><img alt="Yamaha double row series buffer with high drive power" src="./assets_yamaha_dr/YM6063_BUFP2.jpg" height="240"></p>
@@ -26,11 +30,15 @@ Buffer with high drive power(quad p-ch, dual n-ch transistors)
 ## Tri-state Inverter/Buffer Family
 ### TSB4NE
 Quad tri-state buffer with negative output enable
-<p align=center><img alt="Yamaha double row series quad tri-state buffer with negative output enable" src="./assets_yamaha_dr/R800_TSB4NE.svg" height="240"></p>
+<p align=center><img alt="Yamaha double row series quad tri-state buffer with negative output enable" src="./assets_yamaha_dr/R800_TSB4NE.svg" height="240"> <img alt="Yamaha double row series quad tri-state buffer with negative output enable" src="./assets_yamaha_dr/YM6078_TSB4NE.jpg" height="240"></br>R800(1.2um) / YM6078(1.5um)</p>
 
 ### TSB8NE
 Octal tri-state buffer with negative output enable
 <p align=center><img alt="Yamaha double row series octal tri-state buffer with negative output enable" src="./assets_yamaha_dr/R800_TSB8NE.jpg" height="240"></br><img alt="Yamaha double row series octal tri-state buffer with negative output enable" src="./assets_yamaha_dr/R800_TSB8NE.svg" height="240"></p>
+
+### TSBP4NE
+Quad tri-state buffer with negative output enable and high drive power(parallel p-ch transistors)
+<p align=center><img alt="Yamaha double row series quad tri-state buffer with negative output enable and high drive power" src="./assets_yamaha_dr/YM6078_TSBP4NE.jpg" height="240"></p>
 
 ### TSBP8NE
 Octal tri-state buffer with negative output enable and high drive power(parallel p-ch transistors)
@@ -100,9 +108,9 @@ Octal tri-state buffer with negative output enable and high drive power(parallel
 <p align=center><img alt="Yamaha double row series 8-input AND with high drive power" src="./assets_yamaha_dr/YM6063_OR8.svg" height="240"></p>
 
 ## AND-OR Family
-### OAI21
-OR2 and wire into NAND2
-<p align=center><img alt="Yamaha double row series OR2 and wire into NAND2" src="./assets_yamaha_dr/R800_OAI21.jpg" height="240"></p>
+### AOI21
+AND2 and wire into NOR2
+<p align=center><img alt="Yamaha double row series AND2 and wire into NOR2" src="./assets_yamaha_dr/YM6063_AOI21.jpg" height="240"></p>
 
 ### AO22
 two AND2s into OR2
@@ -115,6 +123,10 @@ four AND2s into OR4(= four NAND2s into NAND4)
 ### AO22222222
 eight AND2s into OR8(= four AOI22s into NAND4)
 <p align=center><img alt="Yamaha double row series eight AND2s into OR8" src="./assets_yamaha_dr/R800_AO22222222.jpg" height="240"></p>
+
+### OAI21
+OR2 and wire into NAND2
+<p align=center><img alt="Yamaha double row series OR2 and wire into NAND2" src="./assets_yamaha_dr/R800_OAI21.jpg" height="240"></p>
 
 ## Exclusive-OR Family
 ### XOR2
@@ -137,7 +149,7 @@ eight AND2s into OR8(= four AOI22s into NAND4)
 ```verilog
 wire Y = S ? IN1 : IN0;
 ```
-<p align=center><img alt="Yamaha double row series 2-to-1 multiplexer" src="./assets_yamaha_dr/GA20_MUX21.jpg" height="240"></p>
+<p align=center><img alt="Yamaha double row series 2-to-1 multiplexer" src="./assets_yamaha_dr/GA20_MUX21.svg" height="240"></p>
 
 ### MUX214
 Quad 2-to-1 multiplexer
@@ -155,13 +167,26 @@ Quad 2-to-1 multiplexer
 
 
 ## Latch Family
-### DL4PE
+### DLPE
 D latch with positive enable
-<p align=center><img alt="Yamaha double row series D latch with positive enable" src="./assets_yamaha_dr/R800_DL4PE.jpg" height="240"> <img alt="Yamaha double row series D latch with positive enable" src="./assets_yamaha_dr/R800_DL4PE.svg" height="240"></p>
+<p align=center><img alt="Yamaha double row series octal D latch with positive enable" src="./assets_yamaha_dr/YM6078_DLPE.jpg" height="240"></p>
+
+### DL4PE
+Quad D latch with positive enable
+<p align=center><img alt="Yamaha double row series quad D latch with positive enable" src="./assets_yamaha_dr/R800_DL4PE.jpg" height="240"> <img alt="Yamaha double row series quad D latch with positive enable" src="./assets_yamaha_dr/R800_DL4PE.svg" height="240"></p>
 <p align=center><i>not delayered, best guess</i></p>
+
+### DL8PE
+Octal D latch with positive enable
+<p align=center><img alt="Yamaha double row series octal D latch with positive enable" src="./assets_yamaha_dr/YM6078_DL8PE.jpg" height="240"></p>
+<p align=center><b>not confirmed</b></p>
 
 
 ## Flip-flop Family
+### DFFNR
+D flip-flop with negative reset
+<p align=center><img alt="Yamaha double row series D flip-flop with negative reset" src="./assets_yamaha_dr/GA20_DFFNR.jpg" height="240"></p>
+
 ### DFFPLNOE
 D flip-flop with positive load and negative output enable, **inverted output only**
 <p align=center><img alt="Yamaha double row series D flip-flop with positive load and negative output enable" src="./assets_yamaha_dr/R800_DFFPLNOE.jpg" height="240"> <img alt="Yamaha double row series D flip-flop with positive load and negative output enable" src="./assets_yamaha_dr/R800_DFFPLNOE.svg" height="240"></p>
@@ -180,6 +205,11 @@ D flip-flop with positive **synchronous reset** and positive load
 ### DFF8NRNOE
 Octal D flip-flop with negative reset and negative output enable
 <p align=center><img alt="Yamaha double row series octal D flip-flop with negative reset and negative output enable" src="./assets_yamaha_dr/R800_DFF8NRNOE.jpg" height="240"></br><img alt="Yamaha double row series octal D flip-flop with negative reset and negative output enable" src="./assets_yamaha_dr/R800_DFF8NRNOE.svg" height="240"></p>
+
+### TFF
+Toggle flip-flop
+<p align=center><img alt="Yamaha double row series Toggle flip-flop" src="./assets_yamaha_dr/YM6078_TFF.jpg" height="240"></p>
+<p align=center><b>not confirmed</b></p>
 
 
 ## Shift Register Family
