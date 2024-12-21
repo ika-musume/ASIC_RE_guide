@@ -165,6 +165,10 @@ two AND2s and one wire into NOR3
 two AND2s into OR2
 <p align=center><img alt="Yamaha double row series two AND2s into OR2" src="./assets_yamaha_dr/YM6063_AO22.jpg" height="240"></p>
 
+### AO33
+two AND3s into OR2
+<p align=center><img alt="Yamaha double row series two AND3s into OR2" src="./assets_yamaha_dr/YM6063_AO33.jpg" height="240"></p>
+
 ### AO44
 two AND4s into OR2
 <p align=center><img alt="Yamaha double row series two AND4s into OR2" src="./assets_yamaha_dr/YM6063_AO44.jpg" height="240"></p>
@@ -192,6 +196,10 @@ OR2 and wire into NAND2
 ### OAI31
 OR3 and wire into NAND2
 <p align=center><img alt="Yamaha double row series OR3 and wire into NAND2" src="./assets_yamaha_dr/R800_OAI31.jpg" height="240"></p>
+
+### OAI22
+two OR2s into NAND2
+<p align=center><img alt="Yamaha double row series two OR2s into NAND2" src="./assets_yamaha_dr/R800_OAI22.jpg" height="240"></p>
 
 ## Exclusive-OR Family
 ### XOR2
@@ -260,10 +268,6 @@ D flip-flop
 D flip-flop with negative reset
 <p align=center><img alt="Yamaha double row series D flip-flop with negative reset" src="./assets_yamaha_dr/GA20_DFFNR.jpg" height="240"></p>
 
-### DFF8NRNOE
-Octal D flip-flop with negative reset and negative output enable
-<p align=center><img alt="Yamaha double row series octal D flip-flop with negative reset and negative output enable" src="./assets_yamaha_dr/R800_DFF8NRNOE.jpg" height="240"></br><img alt="Yamaha double row series octal D flip-flop with negative reset and negative output enable" src="./assets_yamaha_dr/R800_DFF8NRNOE.svg" height="240"></p>
-
 ### DFFNS
 D flip-flop with negative set
 <p align=center><img alt="Yamaha double row series D flip-flop with negative set" src="./assets_yamaha_dr/R800_DFFNS.jpg" height="240"></p>
@@ -282,6 +286,10 @@ D flip-flop with positive load and positive **synchronous reset**
 D flip-flop with positive load and negative output enable
 <p align=center><img alt="Yamaha double row series D flip-flop with positive load and negative output enable" src="./assets_yamaha_dr/R800_DFFPLNOE.jpg" height="240"> <img alt="Yamaha double row series D flip-flop with positive load and negative output enable" src="./assets_yamaha_dr/R800_DFFPLNOE.svg" height="240"></p>
 <p align=center><i>not delayered, best guess</i></p>
+
+### DFF8NRNOE
+Octal D flip-flop with negative reset and negative output enable
+<p align=center><img alt="Yamaha double row series octal D flip-flop with negative reset and negative output enable" src="./assets_yamaha_dr/R800_DFF8NRNOE.jpg" height="240"></br><img alt="Yamaha double row series octal D flip-flop with negative reset and negative output enable" src="./assets_yamaha_dr/R800_DFF8NRNOE.svg" height="240"></p>
 
 ### TFF
 Toggle flip-flop
