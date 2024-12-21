@@ -12,7 +12,7 @@ Inverter with high drive power(dual p-ch transistors)
 
 ### INVP2
 Inverter with high drive power(quad p-ch, dual n-ch transistors)
-<p align=center><img alt="Yamaha double row series inverter with high drive power" src="./assets_yamaha_dr/R800_INVP2.jpg" height="240"> <img alt="Yamaha double row series inverter with high drive power" src="./assets_yamaha_dr/YM6063_INVP2.jpg" height="240"></br>R800(1.2um) / YM6063(1.5um)</p>
+<p align=center><img alt="Yamaha double row series inverter with high drive power" src="./assets_yamaha_dr/YM6063_INVP2.jpg" height="240"> <img alt="Yamaha double row series inverter with high drive power" src="./assets_yamaha_dr/R800_INVP2.jpg" height="240"></br>YM6063(1.5um) / R800(1.2um)</p>
 
 ### BUF
 Buffer
@@ -26,15 +26,36 @@ Buffer with high drive power(dual p-ch, dual n-ch transistors)
 Buffer with high drive power(quad p-ch, dual n-ch transistors)
 <p align=center><img alt="Yamaha double row series buffer with high drive power" src="./assets_yamaha_dr/YM6063_BUFP2.jpg" height="240"></p>
 
+### BUFD1
+Buffer with delay, type 1 (default gate width * 2.5)
+<p align=center><img alt="Yamaha double row series buffer with delay, type 1" src="./assets_yamaha_dr/R800_BUFD1.jpg" height="240"></p>
+
+### BUFD2
+Buffer with delay, type 2 (default gate width * 3.5)
+<p align=center><img alt="Yamaha double row series buffer with delay, type 2" src="./assets_yamaha_dr/R800_BUFD2.jpg" height="240"></p>
+
+### BUFD3
+Buffer with delay, type 3 (default gate width * 4.5)
+<p align=center><img alt="Yamaha double row series buffer with delay, type 3" src="./assets_yamaha_dr/R800_BUFD3.jpg" height="240"> <img alt="Yamaha double row series buffer with delay, type 4" src="./assets_yamaha_dr/YM6063_BUFD3.jpg" height="240"></p>
+
+### BUFD4
+Buffer with delay, type 4
+<p align=center><img alt="Yamaha double row series buffer with delay, type 5" src="./assets_yamaha_dr/YM6063_BUFD4.jpg" height="240"></p>
+
 
 ## Tri-state Inverter/Buffer Family
 ### TSB4NE
 Quad tri-state buffer with negative output enable
-<p align=center><img alt="Yamaha double row series quad tri-state buffer with negative output enable" src="./assets_yamaha_dr/R800_TSB4NE.svg" height="240"> <img alt="Yamaha double row series quad tri-state buffer with negative output enable" src="./assets_yamaha_dr/YM6078_TSB4NE.jpg" height="240"></br>R800(1.2um) / YM6078(1.5um)</p>
+<p align=center><img alt="Yamaha double row series quad tri-state buffer with negative output enable" src="./assets_yamaha_dr/YM6078_TSB4NE.jpg" height="240"> <img alt="Yamaha double row series quad tri-state buffer with negative output enable" src="./assets_yamaha_dr/R800_TSB4NE.svg" height="240"></br>YM6078(1.5um) / R800(1.2um)</p>
 
 ### TSB8NE
 Octal tri-state buffer with negative output enable
 <p align=center><img alt="Yamaha double row series octal tri-state buffer with negative output enable" src="./assets_yamaha_dr/R800_TSB8NE.jpg" height="240"></br><img alt="Yamaha double row series octal tri-state buffer with negative output enable" src="./assets_yamaha_dr/R800_TSB8NE.svg" height="240"></p>
+
+### TSBPNE
+Tri-state buffer with negative output enable and high drive power(parallel p-ch transistors)
+<p align=center><img alt="Yamaha double row series tri-state buffer with negative output enable and high drive power(parallel p-ch transistors)" src="./assets_yamaha_dr/R800_TSBP.jpg" height="240"> <img alt="Yamaha double row series tri-state buffer with negative output enable and high drive power(parallel p-ch transistors)" src="./assets_yamaha_dr/R800_TSBP.svg" height="240"></p>
+<p align=center><i>not delayered, best guess</i></p>
 
 ### TSBP4NE
 Quad tri-state buffer with negative output enable and high drive power(parallel p-ch transistors)
@@ -73,6 +94,14 @@ Octal tri-state buffer with negative output enable and high drive power(parallel
 3-input NOR with high drive power(parallel p-ch transistors)
 <p align=center><img alt="Yamaha double row series 3-input NOR with high drive power" src="./assets_yamaha_dr/YM6063_NOR3P.jpg" height="240"> <img alt="Yamaha double row series 3-input OR with high drive power" src="./assets_yamaha_dr/GA20_NOR3P.jpg" height="240"></br>YM6063(1.5um) / GA20(1.5um)</p>
 
+### NOR6
+6-input NOR
+<p align=center><img alt="Yamaha double row series 6-input NOR" src="./assets_yamaha_dr/YM6063_NOR6.jpg" height="240"></p>
+
+### NOR8
+8-input NOR
+<p align=center><img alt="Yamaha double row series 8-input NOR" src="./assets_yamaha_dr/YM6063_NOR8.jpg" height="240"></p>
+
 
 ## AND/OR Family
 ### AND2
@@ -89,11 +118,15 @@ Octal tri-state buffer with negative output enable and high drive power(parallel
 
 ### AND6
 6-input AND
-<p align=center><img alt="Yamaha double row series 6-input AND" src="./assets_yamaha_dr/R800_AND6.jpg" height="240"></p>
+<p align=center><img alt="Yamaha double row series 6-input AND" src="./assets_yamaha_dr/YM6063_AND6.jpg" height="240"> <img alt="Yamaha double row series 6-input AND" src="./assets_yamaha_dr/R800_AND6.jpg" height="240"></br>YM6063(1.5um) / R800(1.2um)</p>
+
+### AND8
+8-input AND
+<p align=center><img alt="Yamaha double row series 8-input AND" src="./assets_yamaha_dr/YM6063_AND8.jpg" height="240"></p>
 
 ### AND8P
 8-input AND with high drive power(parallel p-ch transistors)
-<p align=center><img alt="Yamaha double row series 8-input AND with high drive power" src="./assets_yamaha_dr/R800_AND8P.jpg" height="240"> <img alt="Yamaha double row series 8-input AND with high drive power" src="./assets_yamaha_dr/YM6063_AND8P.jpg" height="240"></br>R800(1.2um) / YM6063(1.5um)</p>
+<p align=center><img alt="Yamaha double row series 8-input AND with high drive power" src="./assets_yamaha_dr/YM6063_AND8P.jpg" height="240"> <img alt="Yamaha double row series 8-input AND with high drive power" src="./assets_yamaha_dr/R800_AND8P.jpg" height="240"></br>YM6063(1.5um) / R800(1.2um)</p>
 
 ### OR2P
 2-input OR with high drive power(parallel p-ch transistors)
@@ -101,24 +134,52 @@ Octal tri-state buffer with negative output enable and high drive power(parallel
 
 ### OR3
 3-input OR
-<p align=center><img alt="Yamaha double row series 3-input OR with high drive power" src="./assets_yamaha_dr/YM6063_OR3.jpg" height="240"></p>
+<p align=center><img alt="Yamaha double row series 3-input OR" src="./assets_yamaha_dr/YM6063_OR3.jpg" height="240"></p>
+
+### OR4
+4-input OR
+<p align=center><img alt="Yamaha double row series 4-input OR" src="./assets_yamaha_dr/YM6063_OR4.jpg" height="240"></p>
+
+### OR6
+6-input OR
+<p align=center><img alt="Yamaha double row series 6-input OR" src="./assets_yamaha_dr/YM6063_OR6.jpg" height="240"></p>
 
 ### OR8
 8-input OR
-<p align=center><img alt="Yamaha double row series 8-input AND with high drive power" src="./assets_yamaha_dr/YM6063_OR8.svg" height="240"></p>
+<p align=center><img alt="Yamaha double row series 8-input OR" src="./assets_yamaha_dr/YM6063_OR8.svg" height="240"></p>
 
 ## AND-OR Family
 ### AOI21
 AND2 and wire into NOR2
 <p align=center><img alt="Yamaha double row series AND2 and wire into NOR2" src="./assets_yamaha_dr/YM6063_AOI21.jpg" height="240"></p>
 
+### AOI22
+two AND2s into NOR2
+<p align=center><img alt="Yamaha double row series two AND2s into NOR2" src="./assets_yamaha_dr/R800_AOI22.jpg" height="240"></p>
+
+### AOI221
+two AND2s and one wire into NOR3
+<p align=center><img alt="Yamaha double row series two AND2s and one wire into NOR3" src="./assets_yamaha_dr/R800_AOI221.jpg" height="240"></p>
+
 ### AO22
 two AND2s into OR2
 <p align=center><img alt="Yamaha double row series two AND2s into OR2" src="./assets_yamaha_dr/YM6063_AO22.jpg" height="240"></p>
 
+### AO44
+two AND4s into OR2
+<p align=center><img alt="Yamaha double row series two AND4s into OR2" src="./assets_yamaha_dr/YM6063_AO44.jpg" height="240"></p>
+
+### AO222
+three AND2s into OR3
+<p align=center><img alt="Yamaha double row series three AND2s into OR3" src="./assets_yamaha_dr/YM6063_AO222.jpg" height="240"></p>
+
 ### AO2222
 four AND2s into OR4(= four NAND2s into NAND4)
 <p align=center><img alt="Yamaha double row series four AND2s into OR4" src="./assets_yamaha_dr/R800_AO2222.jpg" height="240"></p>
+
+### AO222222
+six AND2s into OR6(= three AOI22s into NAND3)
+<p align=center><img alt="Yamaha double row series six AND2s into OR6" src="./assets_yamaha_dr/YM6063_AO222222.jpg" height="240"> <img alt="Yamaha double row series six AND2s into OR6" src="./assets_yamaha_dr/R800_AO222222.jpg" height="240"></p>
 
 ### AO22222222
 eight AND2s into OR8(= four AOI22s into NAND4)
@@ -128,10 +189,18 @@ eight AND2s into OR8(= four AOI22s into NAND4)
 OR2 and wire into NAND2
 <p align=center><img alt="Yamaha double row series OR2 and wire into NAND2" src="./assets_yamaha_dr/R800_OAI21.jpg" height="240"></p>
 
+### OAI31
+OR3 and wire into NAND2
+<p align=center><img alt="Yamaha double row series OR3 and wire into NAND2" src="./assets_yamaha_dr/R800_OAI31.jpg" height="240"></p>
+
 ## Exclusive-OR Family
 ### XOR2
 2-input XOR
 <p align=center><img alt="Yamaha double row series 2-input XOR" src="./assets_yamaha_dr/YM6063_XOR2.jpg" height="240"> <img alt="Yamaha double row series 2-input XOR" src="./assets_yamaha_dr/YM6063_XOR2.svg" height="240"></p>
+
+### XNOR2
+2-input XNOR
+<p align=center><img alt="Yamaha double row series 2-input XNOR" src="./assets_yamaha_dr/YM6063_XNOR2.jpg" height="240"></p>
 
 ## Decoder Family
 ### DEC24
@@ -194,6 +263,10 @@ D flip-flop with negative reset
 ### DFF8NRNOE
 Octal D flip-flop with negative reset and negative output enable
 <p align=center><img alt="Yamaha double row series octal D flip-flop with negative reset and negative output enable" src="./assets_yamaha_dr/R800_DFF8NRNOE.jpg" height="240"></br><img alt="Yamaha double row series octal D flip-flop with negative reset and negative output enable" src="./assets_yamaha_dr/R800_DFF8NRNOE.svg" height="240"></p>
+
+### DFFNS
+D flip-flop with negative set
+<p align=center><img alt="Yamaha double row series D flip-flop with negative set" src="./assets_yamaha_dr/R800_DFFNS.jpg" height="240"></p>
 
 ### DFFPL
 D flip-flop with positive load
