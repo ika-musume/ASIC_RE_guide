@@ -272,6 +272,10 @@ D flip-flop with negative reset
 D flip-flop with negative set
 <p align=center><img alt="Yamaha double row series D flip-flop with negative set" src="./assets_yamaha_dr/R800_DFFNS.jpg" height="240"></p>
 
+### DFFNRNS
+D flip-flop with negative reset and set
+<p align=center><img alt="Yamaha double row series D flip-flop with negative reset and set" src="./assets_yamaha_dr/YM6063_DFFNRNS.jpg" height="240"></p>
+
 ### DFFPL
 D flip-flop with positive load
 <p align=center><img alt="Yamaha double row series D flip-flop with positive load" src="./assets_yamaha_dr/R800_DFFPL.jpg" height="240"> <img alt="Yamaha double row series D flip-flop with positive load" src="./assets_yamaha_dr/R800_DFFPL.svg" height="240"></p>
@@ -341,3 +345,33 @@ always @(posedge CLK) Z <= A;
 wire DET = ~Z & A;
 ```
 <p align=center><img alt="Yamaha double row series positive edge detector" src="./assets_yamaha_dr/R800_PDET.jpg" height="240"> <img alt="Yamaha double row series positive edge detector" src="./assets_yamaha_dr/R800_PDET.svg" height="240"></p>
+
+
+## TBD
+### DEC416
+4-to-16 decoder
+<p align=center><img alt="Yamaha double row series 4-to-16 decoder" src="./assets_yamaha_dr/R800_DEC416.jpg" height="240"></p>
+
+### DFF4
+Quad D flip-flop
+<p align=center><img alt="Yamaha double row series Quad D flip-flop" src="./assets_yamaha_dr/YM6063_DFF4.jpg" height="240"></p>
+
+### DFF8
+Octal D flip-flop
+<p align=center><img alt="Yamaha double row series Octal D flip-flop" src="./assets_yamaha_dr/YM6063_DFF8.jpg" height="240"></p>
+
+### TBD1
+4-bit counter?
+<p align=center><img alt="Yamaha double row series TBD" src="./assets_yamaha_dr/R800_TBD1.jpg" height="240"></p>
+
+### TBD2
+tri-state something?
+<p align=center><img alt="Yamaha double row series TBD" src="./assets_yamaha_dr/R800_TBD2.jpg" height="240"></p>
+
+### TBD3
+4-bit counter?
+<p align=center><img alt="Yamaha double row series TBD" src="./assets_yamaha_dr/YM6063_TBD3.jpg" height="240"></p>
+
+### TBD4
+4-bit counter?
+<p align=center><img alt="Yamaha double row series TBD" src="./assets_yamaha_dr/YM6063_TBD4.jpg" height="240"></p>
