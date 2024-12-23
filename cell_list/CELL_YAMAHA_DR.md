@@ -291,6 +291,14 @@ D flip-flop with positive load and negative output enable
 <p align=center><img alt="Yamaha double row series D flip-flop with positive load and negative output enable" src="./assets_yamaha_dr/R800_DFFPLNOE.jpg" height="240"> <img alt="Yamaha double row series D flip-flop with positive load and negative output enable" src="./assets_yamaha_dr/R800_DFFPLNOE.svg" height="240"></p>
 <p align=center><i>not delayered, best guess</i></p>
 
+### DFF4NR
+Quad D flip-flop with negative reset
+<p align=center><img alt="Yamaha double row series Quad D flip-flop with negative reset" src="./assets_yamaha_dr/YM6063_DFF4NR.jpg" height="240"></p>
+
+### DFF8NR
+Octal D flip-flop with negative reset
+<p align=center><img alt="Yamaha double row series Octal D flip-flop with negative reset" src="./assets_yamaha_dr/YM6063_DFF8NR.jpg" height="240"></p>
+
 ### DFF8NRNOE
 Octal D flip-flop with negative reset and negative output enable
 <p align=center><img alt="Yamaha double row series octal D flip-flop with negative reset and negative output enable" src="./assets_yamaha_dr/R800_DFF8NRNOE.jpg" height="240"></br><img alt="Yamaha double row series octal D flip-flop with negative reset and negative output enable" src="./assets_yamaha_dr/R800_DFF8NRNOE.svg" height="240"></p>
@@ -351,14 +359,6 @@ wire DET = ~Z & A;
 ### DEC416
 4-to-16 decoder
 <p align=center><img alt="Yamaha double row series 4-to-16 decoder" src="./assets_yamaha_dr/R800_DEC416.jpg" height="240"></p>
-
-### DFF4
-Quad D flip-flop
-<p align=center><img alt="Yamaha double row series Quad D flip-flop" src="./assets_yamaha_dr/YM6063_DFF4.jpg" height="240"></p>
-
-### DFF8
-Octal D flip-flop
-<p align=center><img alt="Yamaha double row series Octal D flip-flop" src="./assets_yamaha_dr/YM6063_DFF8.jpg" height="240"></p>
 
 ### TBD1
 4-bit counter?
