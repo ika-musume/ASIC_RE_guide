@@ -65,6 +65,11 @@ Quad tri-state buffer with negative output enable and high drive power(parallel 
 Octal tri-state buffer with negative output enable and high drive power(parallel p-ch transistors)
 <p align=center><img alt="Yamaha double row series octal tri-state buffer with negative output enable and high drive power" src="./assets_yamaha_dr/R800_TSBP8NE.jpg" height="240"></p>
 
+### TSBP28NE
+Octal tri-state buffer with negative output enable and high drive power(quad p-ch, dual n-ch transistors)
+<p align=center><img alt="Yamaha double row series octal tri-state buffer with negative output enable and high drive power(quad p-ch, dual n-ch transistors)" src="./assets_yamaha_dr/R800_TSBP28NE.jpg" height="240"></p>
+
+
 ## NAND/NOR Family
 ### NAND2
 2-input NAND
@@ -219,6 +224,10 @@ two OR2s into NAND2
 3-to-8 decoder
 <p align=center><img alt="Yamaha double row series 3-to-8 decoder" src="./assets_yamaha_dr/GA20_DEC38.jpg" height="240"> <img alt="Yamaha double row series 3-to-8 decoder" src="./assets_yamaha_dr/GA20_DEC38.svg" height="240"></p>
 
+### DEC416
+4-to-16 decoder
+<p align=center><img alt="Yamaha double row series 4-to-16 decoder" src="./assets_yamaha_dr/R800_DEC416.jpg" height="240"></p>
+
 
 ## Multiplexer Family
 ### MUX21
@@ -320,6 +329,14 @@ Toggle flip-flop
 Cascadable 1-bit counter with positive reset
 <p align=center><img alt="Yamaha double row series cascadable 1-bit counter with positive reset" src="./assets_yamaha_dr/R800_CNTR1PR.jpg" height="240"> <img alt="Yamaha double row series cascadable 1-bit counter with positive reset" src="./assets_yamaha_dr/YM6063_CNTR1PR.svg" height="240"></br>R800(1.2um) / YM6063(1.5um)</p>
 
+### CNTR4NR
+Cascadable 4-bit counter with negative reset
+<p align=center><img alt="Yamaha double row series cascadable 4-bit counter with negative reset" src="./assets_yamaha_dr/YM6063_CNTR4NR.jpg" height="240"></p>
+
+### CNTR4PSR
+Cascadable 4-bit counter with positive synchronous reset
+<p align=center><img alt="Yamaha double row series cascadable 4-bit counter with positive synchronous reset" src="./assets_yamaha_dr/YM6063_CNTR4PSR.jpg" height="240"></p>
+
 ### CNTR4NL
 Cascadable 4-bit counter with negative load
 <p align=center><img alt="Yamaha double row series cascadable 4-bit counter with negative load" src="./assets_yamaha_dr/R800_CNTR4NL.jpg" height="240"></p>
@@ -361,18 +378,4 @@ always @(posedge CLK) Z <= A;
 wire DET = ~Z & A;
 ```
 <p align=center><img alt="Yamaha double row series positive edge detector" src="./assets_yamaha_dr/R800_PDET.jpg" height="240"> <img alt="Yamaha double row series positive edge detector" src="./assets_yamaha_dr/R800_PDET.svg" height="240"></p>
-
-
-## TBD
-### DEC416
-4-to-16 decoder
-<p align=center><img alt="Yamaha double row series 4-to-16 decoder" src="./assets_yamaha_dr/R800_DEC416.jpg" height="240"></p>
-
-### TBD2
-tri-state something?
-<p align=center><img alt="Yamaha double row series TBD" src="./assets_yamaha_dr/R800_TBD2.jpg" height="240"></p>
-
-### TBD3
-4-bit counter?
-<p align=center><img alt="Yamaha double row series TBD" src="./assets_yamaha_dr/YM6063_TBD3.jpg" height="240"></p>
 
