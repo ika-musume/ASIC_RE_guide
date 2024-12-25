@@ -279,7 +279,7 @@ D flip-flop with negative set
 
 ### DFFNRNS
 D flip-flop with negative reset and set
-<p align=center><img alt="Yamaha double row series D flip-flop with negative reset and set" src="./assets_yamaha_dr/YM6063_DFFNRNS.jpg" height="240"></p>
+<p align=center><img alt="Yamaha double row series D flip-flop with negative reset and set" src="./assets_yamaha_dr/YM6063_DFFNRNS.svg" height="240"></p>
 
 ### DFFPL
 D flip-flop with positive load
