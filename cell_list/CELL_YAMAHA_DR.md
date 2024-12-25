@@ -125,10 +125,6 @@ Octal tri-state buffer with negative output enable and high drive power(quad p-c
 6-input AND
 <p align=center><img alt="Yamaha double row series 6-input AND" src="./assets_yamaha_dr/YM6063_AND6.jpg" height="240"> <img alt="Yamaha double row series 6-input AND" src="./assets_yamaha_dr/R800_AND6.jpg" height="240"></br>YM6063(1.5um) / R800(1.2um)</p>
 
-### AND8
-8-input AND
-<p align=center><img alt="Yamaha double row series 8-input AND" src="./assets_yamaha_dr/YM6063_AND8.jpg" height="240"></p>
-
 ### AND8P
 8-input AND with high drive power(parallel p-ch transistors)
 <p align=center><img alt="Yamaha double row series 8-input AND with high drive power" src="./assets_yamaha_dr/YM6063_AND8P.jpg" height="240"> <img alt="Yamaha double row series 8-input AND with high drive power" src="./assets_yamaha_dr/R800_AND8P.jpg" height="240"></br>YM6063(1.5um) / R800(1.2um)</p>
@@ -325,9 +321,13 @@ Toggle flip-flop
 
 
 ## Counter Family
-### CNTR1PR
-Cascadable 1-bit counter with positive reset
-<p align=center><img alt="Yamaha double row series cascadable 1-bit counter with positive reset" src="./assets_yamaha_dr/R800_CNTR1PR.jpg" height="240"> <img alt="Yamaha double row series cascadable 1-bit counter with positive reset" src="./assets_yamaha_dr/YM6063_CNTR1PR.svg" height="240"></br>R800(1.2um) / YM6063(1.5um)</p>
+### CNTR1NR
+Cascadable 1-bit counter with negative reset
+<p align=center><img alt="Yamaha double row series cascadable 1-bit counter with negative reset" src="./assets_yamaha_dr/YM6078_CNTR1NR.jpg" height="240"></p>
+
+### CNTR1PSR
+Cascadable 1-bit counter with positive synchronous reset
+<p align=center><img alt="Yamaha double row series cascadable 1-bit counter with positive reset" src="./assets_yamaha_dr/R800_CNTR1PSR.jpg" height="240"> <img alt="Yamaha double row series cascadable 1-bit counter with positive reset" src="./assets_yamaha_dr/YM6063_CNTR1PSR.svg" height="240"></br>R800(1.2um) / YM6063(1.5um)</p>
 
 ### CNTR4NR
 Cascadable 4-bit counter with negative reset
