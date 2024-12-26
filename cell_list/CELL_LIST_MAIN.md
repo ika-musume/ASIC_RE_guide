@@ -7,22 +7,21 @@ This list is a compilation of ASIC cell mugshots I've found so far. Information 
 - **INVERTER/BUFFER FAMILY**
     - **INV** - inverter
     - **BUF** - buffer
-    - prefix **COMP** - _(e.g. COMPBUF...)_ with complementary output, **ONLY FOR BUF** 
-    - suffix **P{n}** - _(e.g. INVP, INVP2...)_ power inverter, n can represent the number of parallel transistors, or it can simply represent the units of output from that ASIC.
-    - suffix **D** - _(e.g. INVD, BUFD...)_ with RC delay
+    - suffix **C** - _(e.g. BUFC...)_ with complementary output, **ONLY FOR BUF** 
+    - suffix **P{n}** - _(e.g. INVP, INVP2...)_ with high drive power, n can represent the number of parallel transistors.
+    - suffix **D** - _(e.g. INVD, BUFD...)_ with an intentional RC delay
 
 - **TRI-STATE INVERTER/BUFFER FAMILY**
     - **TSI** - tri-state inverter
     - **TSB** - tri-state buffer
-    - suffix **PE** - _(e.g. TSIPE...)_ with positive enable
-    - suffix **NE** - _(e.g. TSBNE...)_ with negative enable
-    - suffix **P{n}** - _(e.g. TSBPPEN...)_ power inverter/buffer; This prefix is used in special cases. Typically, tri-state inverters use a four MOS stack, but I've seen cases where a transmission gate controls the output of the inverter. In this case, the output of the CMOS inverter is attenuated by the pass transistors, so use this suffix to distinguish between a 4-stack inverter cell and a 2-stack inverter + pass transistor cell _only_ if it's present.
+    - suffix **{P, N}E** - _(e.g. TSIPE...)_ with positive/negative enable
+    - suffix **P{n}** - _(e.g. TSBPPE...)_ with high drive power, n can represent the number of parallel transistors.
 
 - **AND/OR FAMILY**
     - **NAND{n}/NOR{n}** - n specifies the number of input ports
     - **AND{n}/OR{n}** - n specifies the number of input ports
-    - prefix **COMP** - _(e.g. COMPOR2...)_ with complementary output
-    - suffix **P{n}** - _(e.g. OR2P, NAND2P...)_ power inverter, n can represent the number of parallel transistors, or it can simply represent the units of output from that ASIC.
+    - suffix **C** - _(e.g. OR2C...)_ with complementary output
+    - suffix **P{n}** - _(e.g. OR2P, NAND2P...)_ with high drive power, n can represent the number of parallel transistors.
     - suffix **OD** - _(e.g. AND2OD...)_ open drain output. If the logic output is zero, the transistor pulls that signal to GND. If it is 1, the output is Hi-Z and the line is _released_.
 
 - **AND-OR FAMILY**
@@ -36,6 +35,23 @@ This list is a compilation of ASIC cell mugshots I've found so far. Information 
     - **XNOR{n}** - n specifies the number of input ports, normally 2
 
 - **MULTIPLEXER FAMILY**
+    - **MUX{n}{m}** - n specifies the number of input ports, normally grater than 1; m specifies the number of output ports, normally 1
+    - suffix **NO** - _(e.g. MUX21NO...)_ with negative output only
+    - suffix **{P, N}E** - _(e.g. MUX41NE...)_ with positive/negative enable
+    - suffix **X{n}** - _(e.g. MUX161X8...)_ the number of parallel components controlled simultaneously
+
+- **FLIP-FLOP FAMILY**
+    - **DFF** - D-type flip-flop
+    - **TFF** - Toggle flip-flop
+    - **JKFF** - JK flip-flop
+    - **SFF** - SCAN flip-flop
+    - suffix **P{n}** - _(e.g. SFFP2NR...)_ with high drive power, n can represent the number of parallel transistors.
+    - suffix **{P, N}L** - _(e.g. DFFNL...)_ positive/negative load
+    - suffix **{P, N}R** - _(e.g. DFFNR...)_ positive/negative reset(clear)
+    - suffix **{P, N}SR** - _(e.g. TFFPSR...)_ positive/negative synchronous reset(clear)
+    - suffix **{P, N}S** - _(e.g. JKNRNS...)_ positive/negative set(set)
+    - suffix **{P, N}SS** - _(e.g. SFFNSS...)_ positive/negative synchronous set(set)
+    - suffix **X{n}** - _(e.g. DFFP4X8...)_ the number of parallel components controlled simultaneously
 
 - **COMPLEX**
     - Often people create strange gates. This practice is most common in NMOS chips, but sometimes CMOS chips also create strange gates. See _AOI222(MF23 wired)_
