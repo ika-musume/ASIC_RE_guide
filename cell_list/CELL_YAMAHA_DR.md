@@ -323,34 +323,76 @@ Toggle flip-flop
 ## Counter Family
 ### CNTR1NR
 Cascadable 1-bit counter with negative reset
+```verilog
+reg Q;
+wire CO = Q & CI;
+always @(posedge CLK or negedge RST_n) Q <= RST_n ? Q + CI : 'd0;
+```
 <p align=center><img alt="Yamaha double row series cascadable 1-bit counter with negative reset" src="./assets_yamaha_dr/YM6078_CNTR1NR.jpg" height="240"></p>
 
 ### CNTR1PSR
 Cascadable 1-bit counter with positive synchronous reset
+```verilog
+reg Q;
+wire CO = Q & CI;
+always @(posedge CLK) Q <= RST ? 'd0 : Q + CI;
+```
 <p align=center><img alt="Yamaha double row series cascadable 1-bit counter with positive reset" src="./assets_yamaha_dr/R800_CNTR1PSR.jpg" height="240"> <img alt="Yamaha double row series cascadable 1-bit counter with positive reset" src="./assets_yamaha_dr/YM6063_CNTR1PSR.svg" height="240"></br>R800(1.2um) / YM6063(1.5um)</p>
 
 ### CNTR4NR
 Cascadable 4-bit counter with negative reset
+```verilog
+reg [3:0] Q;
+wire CO = &{Q} & CI;
+always @(posedge CLK or negedge RST_n) Q <= RST_n ? Q + CI : 'd0;
+```
 <p align=center><img alt="Yamaha double row series cascadable 4-bit counter with negative reset" src="./assets_yamaha_dr/YM6063_CNTR4NR.jpg" height="240"></p>
 
 ### CNTR4PSR
 Cascadable 4-bit counter with positive synchronous reset
+```verilog
+reg [3:0] Q;
+wire CO = &{Q} & CI;
+always @(posedge CLK) Q <= RST ? 'd0 : Q + CI;
+```
 <p align=center><img alt="Yamaha double row series cascadable 4-bit counter with positive synchronous reset" src="./assets_yamaha_dr/YM6063_CNTR4PSR.jpg" height="240"></p>
 
 ### CNTR4NL
 Cascadable 4-bit counter with negative load
+```verilog
+reg [3:0] Q;
+wire CO = &{Q} & CI;
+always @(posedge CLK) Q <= LD_n ? Q + CI : D;
+```
 <p align=center><img alt="Yamaha double row series cascadable 4-bit counter with negative load" src="./assets_yamaha_dr/R800_CNTR4NL.jpg" height="240"></p>
 
 ### CNTR4NLNR
 Cascadable 4-bit counter with negative load and negative reset
+```verilog
+reg [3:0] Q;
+wire CO = &{Q} & CI;
+always @(posedge CLK or negedge RST_n) Q <= RST_n ? (LD_n ? Q + CI : D) : 'd0;
+```
 <p align=center><img alt="Yamaha double row series cascadable 4-bit counter with negative load and negative reset" src="./assets_yamaha_dr/YM6063_CNTR4NLNR.svg" height="240"></p>
 
-### ACC1PR
-Cascadable 1-bit accumulator with positive reset
-<p align=center><img alt="Yamaha double row series cascadable 1-bit accumulator with positive reset" src="./assets_yamaha_dr/YM6063_ACC1PR.svg" height="240"></p>
+### ACC1PSR
+Cascadable 1-bit accumulator with positive synchronous reset
+```verilog
+reg Q;
+wire [1:0] adder = Q + A + CI;
+wire CO = adder[1];
+always @(posedge CLK) Q <= RST ? 'd0 : adder[0];
+```
+<p align=center><img alt="Yamaha double row series cascadable 1-bit accumulator with positive reset" src="./assets_yamaha_dr/YM6063_ACC1PSR.svg" height="240"></p>
 
 ### ACC1NL
 Cascadable 1-bit accumulator with negative load; D port to preload data, A port for accumulation
+```verilog
+reg Q;
+wire [1:0] adder = Q + A + CI;
+wire CO = adder[1];
+always @(posedge CLK) Q <= LD_n ? adder[0] : D;
+```
 <p align=center><img alt="Yamaha double row series cascadable 1-bit accumulator with negative load" src="./assets_yamaha_dr/R800_ACC1NL.jpg" height="240"> <img alt="Yamaha double row series cascadable 1-bit accumulator with negative load" src="./assets_yamaha_dr/R800_ACC1NL.svg" height="240"></p>
 
 
