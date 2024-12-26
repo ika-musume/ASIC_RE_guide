@@ -375,6 +375,15 @@ always @(posedge CLK or negedge RST_n) Q <= RST_n ? (LD_n ? Q + CI : D) : 'd0;
 ```
 <p align=center><img alt="Yamaha double row series cascadable 4-bit counter with negative load and negative reset" src="./assets_yamaha_dr/YM6063_CNTR4NLNR.svg" height="240"></p>
 
+### CNTR4NLPSR
+Cascadable 4-bit counter with negative load and positive synchronous reset
+```verilog
+reg [3:0] Q;
+wire CO = &{Q} & CI;
+always @(posedge CLK) Q <= LD_n ? (RST ? 'd0 : Q + CI) : D; //LD_n takes priority
+```
+<p align=center><img alt="Yamaha double row series cascadable 4-bit counter with negative load and positive synchronous reset" src="./assets_yamaha_dr/R800_CNTR4NLPSR.jpg" height="240"></p>
+
 ### ACC1PSR
 Cascadable 1-bit accumulator with positive synchronous reset
 ```verilog
