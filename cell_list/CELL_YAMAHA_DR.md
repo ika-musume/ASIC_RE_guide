@@ -6,25 +6,25 @@ I leave the cells without a SVG as an exercise for the reader, as the solution i
 Inverter
 <p align=center><img alt="Yamaha double row series inverter" src="./assets_yamaha_dr/YM6063_INV.svg" height="240"></p>
 
-### INVP
-Inverter with high drive power(dual p-ch transistors)
-<p align=center><img alt="Yamaha double row series inverter with high drive power" src="./assets_yamaha_dr/YM6063_INVP.jpg" height="240"> <img alt="Yamaha double row series inverter with high drive power" src="./assets_yamaha_dr/YM6063_INVP.svg" height="240"></p>
-
 ### INVP2
+Inverter with high drive power(dual p-ch transistors)
+<p align=center><img alt="Yamaha double row series inverter with high drive power" src="./assets_yamaha_dr/YM6063_INVP2.jpg" height="240"> <img alt="Yamaha double row series inverter with high drive power" src="./assets_yamaha_dr/YM6063_INVP2.svg" height="240"></p>
+
+### INVP4
 Inverter with high drive power(quad p-ch, dual n-ch transistors)
-<p align=center><img alt="Yamaha double row series inverter with high drive power" src="./assets_yamaha_dr/YM6063_INVP2.jpg" height="240"> <img alt="Yamaha double row series inverter with high drive power" src="./assets_yamaha_dr/R800_INVP2.jpg" height="240"></br>YM6063(1.5um) / R800(1.2um)</p>
+<p align=center><img alt="Yamaha double row series inverter with high drive power" src="./assets_yamaha_dr/YM6063_INVP4.jpg" height="240"> <img alt="Yamaha double row series inverter with high drive power" src="./assets_yamaha_dr/R800_INVP4.jpg" height="240"></br>YM6063(1.5um) / R800(1.2um)</p>
 
 ### BUF
 Buffer
 <p align=center><img alt="Yamaha double row series buffer" src="./assets_yamaha_dr/YM6063_BUF.jpg" height="240"></p>
 
-### BUFP
-Buffer with high drive power(dual p-ch, dual n-ch transistors)
-<p align=center><img alt="Yamaha double row series buffer with high drive power" src="./assets_yamaha_dr/YM6078_BUFP.jpg" height="240"></p>
-
 ### BUFP2
+Buffer with high drive power(dual p-ch, dual n-ch transistors)
+<p align=center><img alt="Yamaha double row series buffer with high drive power" src="./assets_yamaha_dr/YM6078_BUFP2.jpg" height="240"></p>
+
+### BUFP4
 Buffer with high drive power(quad p-ch, dual n-ch transistors)
-<p align=center><img alt="Yamaha double row series buffer with high drive power" src="./assets_yamaha_dr/YM6063_BUFP2.jpg" height="240"></p>
+<p align=center><img alt="Yamaha double row series buffer with high drive power" src="./assets_yamaha_dr/YM6063_BUFP4.jpg" height="240"></p>
 
 ### BUFD1
 Buffer with delay, type 1 (default gate width * 2.5)
@@ -44,30 +44,30 @@ Buffer with delay, type 4
 
 
 ## Tri-state Inverter/Buffer Family
-### TSB4NE
+### TSBX4NE
 Quad tri-state buffer with negative output enable
-<p align=center><img alt="Yamaha double row series quad tri-state buffer with negative output enable" src="./assets_yamaha_dr/YM6078_TSB4NE.jpg" height="240"> <img alt="Yamaha double row series quad tri-state buffer with negative output enable" src="./assets_yamaha_dr/R800_TSB4NE.svg" height="240"></br>YM6078(1.5um) / R800(1.2um)</p>
+<p align=center><img alt="Yamaha double row series quad tri-state buffer with negative output enable" src="./assets_yamaha_dr/YM6078_TSBX4NE.jpg" height="240"> <img alt="Yamaha double row series quad tri-state buffer with negative output enable" src="./assets_yamaha_dr/R800_TSBX4NE.svg" height="240"></br>YM6078(1.5um) / R800(1.2um)</p>
 
-### TSB8NE
+### TSBX8NE
 Octal tri-state buffer with negative output enable
-<p align=center><img alt="Yamaha double row series octal tri-state buffer with negative output enable" src="./assets_yamaha_dr/R800_TSB8NE.jpg" height="240"></br><img alt="Yamaha double row series octal tri-state buffer with negative output enable" src="./assets_yamaha_dr/R800_TSB8NE.svg" height="240"></p>
+<p align=center><img alt="Yamaha double row series octal tri-state buffer with negative output enable" src="./assets_yamaha_dr/R800_TSBX8NE.jpg" height="240"></br><img alt="Yamaha double row series octal tri-state buffer with negative output enable" src="./assets_yamaha_dr/R800_TSBX8NE.svg" height="240"></p>
 
-### TSBPNE
-Tri-state buffer with negative output enable and high drive power(parallel p-ch transistors)
-<p align=center><img alt="Yamaha double row series tri-state buffer with negative output enable and high drive power(parallel p-ch transistors)" src="./assets_yamaha_dr/R800_TSBP.jpg" height="240"> <img alt="Yamaha double row series tri-state buffer with negative output enable and high drive power(parallel p-ch transistors)" src="./assets_yamaha_dr/R800_TSBP.svg" height="240"></p>
+### TSBP2NE
+Tri-state buffer with negative output enable and high drive power(dual p-ch transistors)
+<p align=center><img alt="Yamaha double row series tri-state buffer with negative output enable and high drive power(parallel p-ch transistors)" src="./assets_yamaha_dr/R800_TSBP2NE.jpg" height="240"> <img alt="Yamaha double row series tri-state buffer with negative output enable and high drive power(parallel p-ch transistors)" src="./assets_yamaha_dr/R800_TSBP2NE.svg" height="240"></p>
 <p align=center><i>not delayered, best guess</i></p>
 
-### TSBP4NE
-Quad tri-state buffer with negative output enable and high drive power(parallel p-ch transistors)
-<p align=center><img alt="Yamaha double row series quad tri-state buffer with negative output enable and high drive power" src="./assets_yamaha_dr/YM6078_TSBP4NE.jpg" height="240"></p>
+### TSBP2X4NE
+Quad tri-state buffer with negative output enable and high drive power(dual p-ch transistors)
+<p align=center><img alt="Yamaha double row series quad tri-state buffer with negative output enable and high drive power" src="./assets_yamaha_dr/YM6078_TSBP2X4NE.jpg" height="240"></p>
 
-### TSBP8NE
-Octal tri-state buffer with negative output enable and high drive power(parallel p-ch transistors)
-<p align=center><img alt="Yamaha double row series octal tri-state buffer with negative output enable and high drive power" src="./assets_yamaha_dr/R800_TSBP8NE.jpg" height="240"></p>
+### TSBP2X8NE
+Octal tri-state buffer with negative output enable and high drive power(dual p-ch transistors)
+<p align=center><img alt="Yamaha double row series octal tri-state buffer with negative output enable and high drive power" src="./assets_yamaha_dr/R800_TSBP2X8NE.jpg" height="240"></p>
 
-### TSBP28NE
+### TSBP4X8NE
 Octal tri-state buffer with negative output enable and high drive power(quad p-ch, dual n-ch transistors)
-<p align=center><img alt="Yamaha double row series octal tri-state buffer with negative output enable and high drive power(quad p-ch, dual n-ch transistors)" src="./assets_yamaha_dr/R800_TSBP28NE.jpg" height="240"></p>
+<p align=center><img alt="Yamaha double row series octal tri-state buffer with negative output enable and high drive power(quad p-ch, dual n-ch transistors)" src="./assets_yamaha_dr/R800_TSBP4X8NE.jpg" height="240"></p>
 
 
 ## NAND/NOR Family
@@ -91,13 +91,13 @@ Octal tri-state buffer with negative output enable and high drive power(quad p-c
 8-input NAND
 <p align=center><img alt="Yamaha double row series 8-input NAND" src="./assets_yamaha_dr/R800_NAND8.jpg" height="240"></p>
 
-### NOR2P
+### NOR2P2
 2-input NOR with high drive power(parallel p-ch transistors)
-<p align=center><img alt="Yamaha double row series 2-input NOR with high drive power" src="./assets_yamaha_dr/YM6063_NOR2P.jpg" height="240"></p>
+<p align=center><img alt="Yamaha double row series 2-input NOR with high drive power" src="./assets_yamaha_dr/YM6063_NOR2P2.jpg" height="240"></p>
 
-### NOR3P
+### NOR3P2
 3-input NOR with high drive power(parallel p-ch transistors)
-<p align=center><img alt="Yamaha double row series 3-input NOR with high drive power" src="./assets_yamaha_dr/YM6063_NOR3P.jpg" height="240"> <img alt="Yamaha double row series 3-input OR with high drive power" src="./assets_yamaha_dr/GA20_NOR3P.jpg" height="240"></br>YM6063(1.5um) / GA20(1.5um)</p>
+<p align=center><img alt="Yamaha double row series 3-input NOR with high drive power" src="./assets_yamaha_dr/YM6063_NOR3P2.jpg" height="240"> <img alt="Yamaha double row series 3-input OR with high drive power" src="./assets_yamaha_dr/GA20_NOR3P2.jpg" height="240"></br>YM6063(1.5um) / GA20(1.5um)</p>
 
 ### NOR6
 6-input NOR
@@ -125,13 +125,13 @@ Octal tri-state buffer with negative output enable and high drive power(quad p-c
 6-input AND
 <p align=center><img alt="Yamaha double row series 6-input AND" src="./assets_yamaha_dr/YM6063_AND6.jpg" height="240"> <img alt="Yamaha double row series 6-input AND" src="./assets_yamaha_dr/R800_AND6.jpg" height="240"></br>YM6063(1.5um) / R800(1.2um)</p>
 
-### AND8P
+### AND8P2
 8-input AND with high drive power(parallel p-ch transistors)
-<p align=center><img alt="Yamaha double row series 8-input AND with high drive power" src="./assets_yamaha_dr/YM6063_AND8P.jpg" height="240"> <img alt="Yamaha double row series 8-input AND with high drive power" src="./assets_yamaha_dr/R800_AND8P.jpg" height="240"></br>YM6063(1.5um) / R800(1.2um)</p>
+<p align=center><img alt="Yamaha double row series 8-input AND with high drive power" src="./assets_yamaha_dr/YM6063_AND8P2.jpg" height="240"> <img alt="Yamaha double row series 8-input AND with high drive power" src="./assets_yamaha_dr/R800_AND8P2.jpg" height="240"></br>YM6063(1.5um) / R800(1.2um)</p>
 
-### OR2P
+### OR2P2
 2-input OR with high drive power(parallel p-ch transistors)
-<p align=center><img alt="Yamaha double row series 2-input OR with high drive power" src="./assets_yamaha_dr/YM6063_OR2P.jpg" height="240"></p>
+<p align=center><img alt="Yamaha double row series 2-input OR with high drive power" src="./assets_yamaha_dr/YM6063_OR2P2.jpg" height="240"></p>
 
 ### OR3
 3-input OR
@@ -296,17 +296,17 @@ D flip-flop with positive load and negative output enable
 <p align=center><img alt="Yamaha double row series D flip-flop with positive load and negative output enable" src="./assets_yamaha_dr/R800_DFFPLNOE.jpg" height="240"> <img alt="Yamaha double row series D flip-flop with positive load and negative output enable" src="./assets_yamaha_dr/R800_DFFPLNOE.svg" height="240"></p>
 <p align=center><i>not delayered, best guess</i></p>
 
-### DFF4NR
+### DFFX4NR
 Quad D flip-flop with negative reset
-<p align=center><img alt="Yamaha double row series Quad D flip-flop with negative reset" src="./assets_yamaha_dr/YM6063_DFF4NR.jpg" height="240"></p>
+<p align=center><img alt="Yamaha double row series Quad D flip-flop with negative reset" src="./assets_yamaha_dr/YM6063_DFFX4NR.jpg" height="240"></p>
 
-### DFF8NR
+### DFFX8NR
 Octal D flip-flop with negative reset
-<p align=center><img alt="Yamaha double row series Octal D flip-flop with negative reset" src="./assets_yamaha_dr/YM6063_DFF8NR.jpg" height="240"></p>
+<p align=center><img alt="Yamaha double row series Octal D flip-flop with negative reset" src="./assets_yamaha_dr/YM6063_DFFX8NR.jpg" height="240"></p>
 
-### DFF8NRNOE
+### DFFX8NRNOE
 Octal D flip-flop with negative reset and negative output enable
-<p align=center><img alt="Yamaha double row series octal D flip-flop with negative reset and negative output enable" src="./assets_yamaha_dr/R800_DFF8NRNOE.jpg" height="240"></br><img alt="Yamaha double row series octal D flip-flop with negative reset and negative output enable" src="./assets_yamaha_dr/R800_DFF8NRNOE.svg" height="240"></p>
+<p align=center><img alt="Yamaha double row series octal D flip-flop with negative reset and negative output enable" src="./assets_yamaha_dr/R800_DFFX8NRNOE.jpg" height="240"></br><img alt="Yamaha double row series octal D flip-flop with negative reset and negative output enable" src="./assets_yamaha_dr/R800_DFFX8NRNOE.svg" height="240"></p>
 
 ### TFF
 Toggle flip-flop
@@ -414,12 +414,12 @@ Tie node to the Vdd
 Tie node to the GND
 <p align=center><img alt="Yamaha double row series gnd level" src="./assets_yamaha_dr/YM6063_GND.jpg" height="240"></p>
 
-### PG8PBE
-8-bit odd parity generator/checker with bit enables
+### PG8P2BE
+8-bit odd parity generator/checker with bit enables and high drive power(dual p-ch transistors)
 ```verilog
 wire P = ^{D[7:0] & BE[7:0]};
 ```
-<p align=center><img alt="Yamaha double row series 8-bit odd parity generator/checker with bit enables" src="./assets_yamaha_dr/R800_PG8PBE.jpg" height="240"></p>
+<p align=center><img alt="Yamaha double row series 8-bit odd parity generator/checker with bit enables and high drive power" src="./assets_yamaha_dr/R800_PG8P2BE.jpg" height="240"></p>
 
 ### PDET
 Positive edge detector
